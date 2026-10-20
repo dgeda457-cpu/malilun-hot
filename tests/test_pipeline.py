@@ -22,6 +22,10 @@ class PipelineTests(unittest.TestCase):
         today=date(2026,10,20)
         self.assertTrue(build.in_window(sample(publication_date='2026-10-14'),7,today));self.assertFalse(build.in_window(sample(publication_date='2026-10-13'),7,today));self.assertFalse(build.in_window(sample(publication_date='2026-10-21'),7,today))
     def test_meetings_not_ranked(self):self.assertFalse(build.in_window(sample(kind='event'),90,date(2026,10,20)))
+    def test_same_title_different_notice_dates_are_separate(self):
+        a=sample(kind='event',id='old-activity',url='https://example.org/1',verified_urls=['https://example.org/1','https://example.org/2'],web_date='2026-01-01')
+        b=sample(kind='event',id='new-activity',url='https://example.org/2',verified_urls=['https://example.org/2'],web_date='2026-02-01')
+        out=collect.merge_items([a],[b]);self.assertEqual(len(out),2);self.assertEqual(sum(len(x['verified_urls'])for x in out),2)
     def test_independent_sources_count_journals(self):
         rows=build.rankings([sample(),sample(id='test-2',source_name='另一测试高校')],[{'id':'capital','name':'资本'}],date(2026,10,20));self.assertEqual(rows['90'][0]['source_count'],1)
     def test_sort_real_dates(self):

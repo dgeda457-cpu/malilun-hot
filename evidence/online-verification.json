@@ -1,0 +1,108 @@
+{
+  "verification": "anonymous HTTP only; no browser rendering or screenshot",
+  "at": "2026-10-20T04:24:12.713529+00:00",
+  "checks": [
+    {
+      "url": "https://malilun-hot.fast-plum-3707.chatgpt.site/",
+      "checked_at": "2026-10-20T04:24:03.397715+00:00",
+      "authentication": "none",
+      "status": 200,
+      "final_url": "https://malilun-hot.fast-plum-3707.chatgpt.site/",
+      "bytes": 3340,
+      "sha256": "7a4ae64384fe14f5d0fc5abb1f04d09b932a1fed85eeed47c703d14839e82981",
+      "content_type": "text/html",
+      "cors": null,
+      "csp": null
+    },
+    {
+      "url": "https://malilun-hot.fast-plum-3707.chatgpt.site/app.js",
+      "checked_at": "2026-10-20T04:24:04.728388+00:00",
+      "authentication": "none",
+      "status": 200,
+      "final_url": "https://malilun-hot.fast-plum-3707.chatgpt.site/app.js",
+      "bytes": 25627,
+      "sha256": "2a98b6a581e2f7e92a22aaff8e8ec3c4bd57f6366ef0001b8ae3b8a94c10a706",
+      "content_type": "text/javascript",
+      "cors": null,
+      "csp": null
+    },
+    {
+      "url": "https://malilun-hot.fast-plum-3707.chatgpt.site/styles.css",
+      "checked_at": "2026-10-20T04:24:05.851851+00:00",
+      "authentication": "none",
+      "status": 200,
+      "final_url": "https://malilun-hot.fast-plum-3707.chatgpt.site/styles.css",
+      "bytes": 11252,
+      "sha256": "6658c6284fbc72efe157d6098dd60cb6d20fbf9cf83980a2876589a1e14c3d50",
+      "content_type": "text/css",
+      "cors": null,
+      "csp": null
+    },
+    {
+      "url": "https://malilun-hot.fast-plum-3707.chatgpt.site/data/catalog.json",
+      "checked_at": "2026-10-20T04:24:06.846868+00:00",
+      "authentication": "none",
+      "status": 200,
+      "final_url": "https://malilun-hot.fast-plum-3707.chatgpt.site/data/catalog.json",
+      "bytes": 119796,
+      "sha256": "dcca82e910aea33185017497d55da20d76ed23306fb59e617ab649e3cc482586",
+      "content_type": "application/json",
+      "cors": null,
+      "csp": null,
+      "records": 57,
+      "cloud_run_verified": true
+    },
+    {
+      "url": "https://malilun-hot.fast-plum-3707.chatgpt.site/data/briefs.json",
+      "checked_at": "2026-10-20T04:24:08.163149+00:00",
+      "authentication": "none",
+      "status": 200,
+      "final_url": "https://malilun-hot.fast-plum-3707.chatgpt.site/data/briefs.json",
+      "bytes": 3592,
+      "sha256": "70734279fd0df1a0d8f23f326fbd89e1156437ecff2e5539d11c5da1db48725f",
+      "content_type": "application/json",
+      "cors": null,
+      "csp": null
+    },
+    {
+      "url": "https://malilun-hot.fast-plum-3707.chatgpt.site/feeds/all.xml",
+      "checked_at": "2026-10-20T04:24:09.214119+00:00",
+      "authentication": "none",
+      "status": 200,
+      "final_url": "https://malilun-hot.fast-plum-3707.chatgpt.site/feeds/all.xml",
+      "bytes": 42523,
+      "sha256": "d1bbcd890952f53962a30137c33e24f415032b276d11a761a756173c28d6e565",
+      "content_type": "text/xml",
+      "cors": null,
+      "csp": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dgeda457-cpu/malilun-hot/main/public/data/site.json",
+      "checked_at": "2026-10-20T04:24:10.337075+00:00",
+      "authentication": "none",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/dgeda457-cpu/malilun-hot/main/public/data/site.json",
+      "bytes": 117290,
+      "sha256": "3a8c01caf298e47929a3566535e76841aa797d46a306ef4e9fa97416c590eec0",
+      "content_type": "text/plain; charset=utf-8",
+      "cors": "*",
+      "csp": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "records": 57,
+      "cloud_run_verified": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/dgeda457-cpu/malilun-hot/main/public/feeds/all.xml",
+      "checked_at": "2026-10-20T04:24:11.613332+00:00",
+      "authentication": "none",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/dgeda457-cpu/malilun-hot/main/public/feeds/all.xml",
+      "bytes": 42523,
+      "sha256": "d1bbcd890952f53962a30137c33e24f415032b276d11a761a756173c28d6e565",
+      "content_type": "text/plain; charset=utf-8",
+      "cors": "*",
+      "csp": "default-src 'none'; style-src 'unsafe-inline'; sandbox"
+    }
+  ],
+  "passed": 8,
+  "total": 8
+}

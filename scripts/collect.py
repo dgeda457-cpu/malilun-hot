@@ -189,6 +189,10 @@ def merge_items(previous,incoming):
     by_id={x['id']:dict(x) for x in previous};url_map={u:x['id'] for x in previous for u in x.get('verified_urls',[x['url']])}
     for item in incoming:
         key=url_map.get(item['url'],item['id']);old=by_id.get(key)
+        # Recover earlier title-only activity merges when a second notice has its own date.
+        if old and item['kind'] not in ('paper','book') and item.get('web_date')!=old.get('web_date') and item['url']!=old['url']:
+            old['verified_urls']=[u for u in old.get('verified_urls',[old['url']]) if u!=item['url']]
+            key=item['id'];old=by_id.get(key)
         if old:
             # A title match is conservative when both records provide conflicting author names.
             if old.get('authors') and item.get('authors') and not set(old['authors'])&set(item['authors']) and item['url'] not in old.get('verified_urls',[]):

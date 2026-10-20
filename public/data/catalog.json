@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_attempt": "2026-10-20T04:16:26+00:00",
-  "last_success": "2026-10-20T04:16:26+00:00",
+  "last_attempt": "2026-10-20T04:25:22+00:00",
+  "last_success": "2026-10-20T04:25:22+00:00",
   "items": [
     {
       "title": "中国共产党长征观的历史生成和长征精神的内涵创新",
@@ -1506,6 +1506,40 @@
       "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
     },
     {
+      "title": "华大韦卓民哲思系列讲座第四十六期|李伟教授主讲“在世界之中的马克思主义中国化”",
+      "authors": [],
+      "journal": null,
+      "kind": "event",
+      "publication_date": null,
+      "web_date": "2026-02-05",
+      "issue_year": null,
+      "issue_number": null,
+      "abstract_excerpt": null,
+      "evidence_level": "metadata",
+      "keywords": [],
+      "event_date": null,
+      "deadline": null,
+      "deadline_evidence": null,
+      "enrollment_year": null,
+      "scope_0305": null,
+      "url": "https://marx.ccnu.edu.cn/info/1143/24666.htm",
+      "source_id": "ccnu",
+      "source_name": "华中师范大学马克思主义学院",
+      "first_seen": "2026-10-20T03:59:29+00:00",
+      "last_verified": "2026-10-20T03:59:29+00:00",
+      "verified_urls": [
+        "https://marx.ccnu.edu.cn/info/1143/24666.htm"
+      ],
+      "id": "8cf364342fb78784",
+      "verification": "部分核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "网页发布日期与活动日期分别记录；未明确字段留空",
+      "topics": [
+        "sinicization"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
       "title": "中国共产党的“法宝”话语:源流考释、历史变迁与价值意蕴",
       "authors": [
         "叶子维",
@@ -1703,7 +1737,6 @@
       "first_seen": "2026-10-20T03:58:06+00:00",
       "last_verified": "2026-10-20T04:18:15+00:00",
       "verified_urls": [
-        "https://marx.ccnu.edu.cn/info/1143/24666.htm",
         "https://marx.ccnu.edu.cn/info/1143/22516.htm"
       ],
       "id": "3547de780a2a9d9a",
@@ -2171,7 +2204,7 @@
       "name": "华中师范大学马克思主义学院",
       "home": "https://marx.ccnu.edu.cn/",
       "rights": "页面标注版权所有，未发现开放转载许可；仅索引学术和招生元数据及短摘录，不复制通知全文。",
-      "checked_at": "2026-10-20T04:16:26+00:00",
+      "checked_at": "2026-10-20T04:25:22+00:00",
       "errors": [
         {
           "url": "https://marx.ccnu.edu.cn/info/1275/16793.htm",
@@ -2221,13 +2254,13 @@
         "web_date"
       ],
       "robots": {
-        "checked_at": "2026-10-20T04:17:56+00:00",
+        "checked_at": "2026-10-20T04:25:22+00:00",
         "url": "https://marx.ccnu.edu.cn/robots.txt",
         "allowed": true,
         "status": "404"
       },
       "status": "partial",
-      "last_success": "2026-10-20T04:16:26+00:00"
+      "last_success": "2026-10-20T04:25:22+00:00"
     }
   ],
   "runs": [
@@ -2278,6 +2311,18 @@
       "outcome": "success",
       "environment": "GitHub Actions",
       "cloud_verified": true
+    },
+    {
+      "id": "2026-10-20T04-25-22+00-00",
+      "at": "2026-10-20T04:25:22+00:00",
+      "new_items": 1,
+      "verified_items": 16,
+      "source_ok": 1,
+      "source_partial": 3,
+      "source_failed": 0,
+      "outcome": "success",
+      "environment": "local Windows/Python",
+      "cloud_verified": false
     }
   ],
   "coverage_note": "仅反映本站监测范围；资讯数量不代表学术价值。"

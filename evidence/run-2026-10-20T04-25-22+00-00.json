@@ -1,0 +1,396 @@
+{
+  "run": {
+    "id": "2026-10-20T04-25-22+00-00",
+    "at": "2026-10-20T04:25:22+00:00",
+    "new_items": 1,
+    "verified_items": 16,
+    "source_ok": 1,
+    "source_partial": 3,
+    "source_failed": 0,
+    "outcome": "success",
+    "environment": "local Windows/Python",
+    "cloud_verified": false
+  },
+  "sources": [
+    {
+      "id": "mlky",
+      "name": "马克思主义理论学科研究",
+      "home": "https://mlky.cbpt.cnki.net/portal",
+      "rights": "未发现开放转载许可；仅建立书目索引和不超过120字的可核实摘要摘录，不采集受限全文。",
+      "checked_at": "2026-10-20T04:16:26+00:00",
+      "errors": [],
+      "http_successes": 11,
+      "items": 10,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "keywords",
+        "kind",
+        "last_verified",
+        "publication_date",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:16:26+00:00",
+        "url": "https://mlky.cbpt.cnki.net/robots.txt",
+        "allowed": true,
+        "status": "200_non_robots_response",
+        "note": "响应不是有效robots指令；不是转载许可。仅低频公开元数据索引。"
+      },
+      "status": "ok",
+      "last_success": "2026-10-20T04:16:26+00:00"
+    },
+    {
+      "id": "socialism",
+      "name": "社会主义研究",
+      "home": "https://socialismstudies.ccnu.edu.cn/",
+      "rights": "未发现开放转载许可；仅建立书目索引和不超过120字的公开摘要摘录。详情被拒绝时不绕过。",
+      "checked_at": "2026-10-20T04:16:26+00:00",
+      "errors": [
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2464&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2473&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 16,
+      "items": 13,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "keywords",
+        "kind",
+        "last_verified",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:16:56+00:00",
+        "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T04:16:26+00:00"
+    },
+    {
+      "id": "snnu",
+      "name": "陕西师范大学马克思主义学院",
+      "home": "https://marxism.snnu.edu.cn/",
+      "rights": "页面标注版权所有，未发现开放转载许可；仅索引题名、公开元数据和短摘录，保留原文链接。",
+      "checked_at": "2026-10-20T04:16:26+00:00",
+      "errors": [
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6121.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6084.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/3181.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 19,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:17:25+00:00",
+        "url": "https://marxism.snnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T04:16:26+00:00"
+    },
+    {
+      "id": "ccnu",
+      "name": "华中师范大学马克思主义学院",
+      "home": "https://marx.ccnu.edu.cn/",
+      "rights": "页面标注版权所有，未发现开放转载许可；仅索引学术和招生元数据及短摘录，不复制通知全文。",
+      "checked_at": "2026-10-20T04:25:22+00:00",
+      "errors": [
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16793.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16794.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16795.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16796.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16799.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16801.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 16,
+      "fields": [
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:25:22+00:00",
+        "url": "https://marx.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T04:25:22+00:00"
+    }
+  ],
+  "http": [
+    {
+      "url": "https://marx.ccnu.edu.cn/robots.txt",
+      "checked_at": "2026-10-20T04:25:22+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/xkxs/xsdt.htm",
+      "checked_at": "2026-10-20T04:25:23+00:00",
+      "status": 200,
+      "bytes": 43260,
+      "sha256": "ec000567aa144631d971c4fed55963316965b1f9a591d7773baa8d3b975cd26c",
+      "final_url": "https://marx.ccnu.edu.cn/xkxs/xsdt.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/zsjy/zsxx.htm",
+      "checked_at": "2026-10-20T04:25:24+00:00",
+      "status": 200,
+      "bytes": 41505,
+      "sha256": "bde265c1e49709b6eb88de1736ef3ced6c2ea89b4f8775d2671f639ad10fa7f7",
+      "final_url": "https://marx.ccnu.edu.cn/zsjy/zsxx.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/",
+      "checked_at": "2026-10-20T04:25:25+00:00",
+      "status": 200,
+      "bytes": 68852,
+      "sha256": "b1d19c8ac284a7f44fde51561b2f8a27ad778910fa2d14e7214f5c32f137c44b",
+      "final_url": "https://marx.ccnu.edu.cn/"
+    }
+  ],
+  "sample": [
+    {
+      "title": "杜志章教授应邀来我院作“加强智库建设提升社会服务能力”学术讲座",
+      "authors": [],
+      "journal": null,
+      "kind": "event",
+      "publication_date": null,
+      "web_date": "2026-07-08",
+      "issue_year": null,
+      "issue_number": null,
+      "abstract_excerpt": null,
+      "evidence_level": "metadata",
+      "keywords": [],
+      "event_date": null,
+      "deadline": null,
+      "deadline_evidence": null,
+      "enrollment_year": null,
+      "scope_0305": null,
+      "url": "https://marx.ccnu.edu.cn/info/1143/24136.htm",
+      "source_id": "ccnu",
+      "source_name": "华中师范大学马克思主义学院",
+      "first_seen": "2026-10-20T03:59:20+00:00",
+      "last_verified": "2026-10-20T03:59:20+00:00",
+      "verified_urls": [
+        "https://marx.ccnu.edu.cn/info/1143/24136.htm"
+      ],
+      "id": "31b88057e3d2a19f",
+      "verification": "部分核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "网页发布日期与活动日期分别记录；未明确字段留空",
+      "topics": [],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "弘扬红色文化,赓续精神谱系——北京师范大学王炳林教授做客博雅大讲堂",
+      "authors": [],
+      "journal": null,
+      "kind": "event",
+      "publication_date": null,
+      "web_date": "2026-06-09",
+      "issue_year": null,
+      "issue_number": null,
+      "abstract_excerpt": null,
+      "evidence_level": "metadata",
+      "keywords": [],
+      "event_date": null,
+      "deadline": null,
+      "deadline_evidence": null,
+      "enrollment_year": null,
+      "scope_0305": null,
+      "url": "https://marx.ccnu.edu.cn/info/1143/24406.htm",
+      "source_id": "ccnu",
+      "source_name": "华中师范大学马克思主义学院",
+      "first_seen": "2026-10-20T03:59:22+00:00",
+      "last_verified": "2026-10-20T03:59:22+00:00",
+      "verified_urls": [
+        "https://marx.ccnu.edu.cn/info/1143/24406.htm"
+      ],
+      "id": "0fd87fcd1debcb12",
+      "verification": "部分核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "网页发布日期与活动日期分别记录；未明确字段留空",
+      "topics": [
+        "spirit"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "师范教育协同提质计划华中师范大学组团思政课建设内涵式发展研讨会在我校顺利举办",
+      "authors": [],
+      "journal": null,
+      "kind": "event",
+      "publication_date": null,
+      "web_date": "2026-05-18",
+      "issue_year": null,
+      "issue_number": null,
+      "abstract_excerpt": null,
+      "evidence_level": "metadata",
+      "keywords": [],
+      "event_date": null,
+      "deadline": null,
+      "deadline_evidence": null,
+      "enrollment_year": null,
+      "scope_0305": null,
+      "url": "https://marx.ccnu.edu.cn/info/1143/24386.htm",
+      "source_id": "ccnu",
+      "source_name": "华中师范大学马克思主义学院",
+      "first_seen": "2026-10-20T03:59:23+00:00",
+      "last_verified": "2026-10-20T03:59:23+00:00",
+      "verified_urls": [
+        "https://marx.ccnu.edu.cn/info/1143/24386.htm"
+      ],
+      "id": "8ff7a74e78719ffc",
+      "verification": "部分核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "网页发布日期与活动日期分别记录；未明确字段留空",
+      "topics": [
+        "education"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "第七届马克思主义理论类专业本科生论坛暨全国高校接力宣讲活动在华中师大圆满举办!",
+      "authors": [],
+      "journal": null,
+      "kind": "event",
+      "publication_date": null,
+      "web_date": "2026-05-17",
+      "issue_year": null,
+      "issue_number": null,
+      "abstract_excerpt": null,
+      "evidence_level": "metadata",
+      "keywords": [],
+      "event_date": null,
+      "deadline": null,
+      "deadline_evidence": null,
+      "enrollment_year": null,
+      "scope_0305": null,
+      "url": "https://marx.ccnu.edu.cn/info/1143/23826.htm",
+      "source_id": "ccnu",
+      "source_name": "华中师范大学马克思主义学院",
+      "first_seen": "2026-10-20T03:59:24+00:00",
+      "last_verified": "2026-10-20T03:59:24+00:00",
+      "verified_urls": [
+        "https://marx.ccnu.edu.cn/info/1143/23826.htm"
+      ],
+      "id": "5004fad10ab00ebb",
+      "verification": "部分核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "网页发布日期与活动日期分别记录；未明确字段留空",
+      "topics": [],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    }
+  ]
+}
