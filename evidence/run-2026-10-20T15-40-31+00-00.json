@@ -1,0 +1,1021 @@
+{
+  "run": {
+    "id": "2026-10-20T15-40-31+00-00",
+    "at": "2026-10-20T15:40:31+00:00",
+    "new_items": 1,
+    "verified_items": 58,
+    "source_ok": 1,
+    "source_partial": 3,
+    "source_failed": 0,
+    "outcome": "success",
+    "environment": "GitHub Actions",
+    "cloud_verified": true
+  },
+  "sources": [
+    {
+      "id": "mlky",
+      "name": "马克思主义理论学科研究",
+      "home": "https://mlky.cbpt.cnki.net/portal",
+      "rights": "未发现开放转载许可；仅建立书目索引和不超过120字的可核实摘要摘录，不采集受限全文。",
+      "checked_at": "2026-10-20T15:40:31+00:00",
+      "errors": [],
+      "http_successes": 11,
+      "items": 10,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "keywords",
+        "kind",
+        "last_verified",
+        "publication_date",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T15:40:31+00:00",
+        "url": "https://mlky.cbpt.cnki.net/robots.txt",
+        "allowed": true,
+        "status": "200_non_robots_response",
+        "note": "响应不是有效robots指令；不是转载许可。仅低频公开元数据索引。"
+      },
+      "status": "ok",
+      "last_success": "2026-10-20T15:40:31+00:00"
+    },
+    {
+      "id": "socialism",
+      "name": "社会主义研究",
+      "home": "https://socialismstudies.ccnu.edu.cn/",
+      "rights": "未发现开放转载许可；仅建立书目索引和不超过120字的公开摘要摘录。详情被拒绝时不绕过。",
+      "checked_at": "2026-10-20T15:40:31+00:00",
+      "errors": [
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2464&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2473&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 16,
+      "items": 13,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "keywords",
+        "kind",
+        "last_verified",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T15:40:51+00:00",
+        "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T15:40:31+00:00"
+    },
+    {
+      "id": "snnu",
+      "name": "陕西师范大学马克思主义学院",
+      "home": "https://marxism.snnu.edu.cn/",
+      "rights": "页面标注版权所有，未发现开放转载许可；仅索引题名、公开元数据和短摘录，保留原文链接。",
+      "checked_at": "2026-10-20T15:40:31+00:00",
+      "errors": [
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6121.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6084.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/3181.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 19,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T15:41:21+00:00",
+        "url": "https://marxism.snnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T15:40:31+00:00"
+    },
+    {
+      "id": "ccnu",
+      "name": "华中师范大学马克思主义学院",
+      "home": "https://marx.ccnu.edu.cn/",
+      "rights": "页面标注版权所有，未发现开放转载许可；仅索引学术和招生元数据及短摘录，不复制通知全文。",
+      "checked_at": "2026-10-20T15:40:31+00:00",
+      "errors": [
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16793.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16794.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16795.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16796.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16799.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16801.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 16,
+      "fields": [
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T15:41:53+00:00",
+        "url": "https://marx.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T15:40:31+00:00"
+    }
+  ],
+  "http": [
+    {
+      "url": "https://mlky.cbpt.cnki.net/robots.txt",
+      "checked_at": "2026-10-20T15:40:31+00:00",
+      "status": 200,
+      "bytes": 96,
+      "sha256": "ccb90812d8ece22365ce83e876a9a91610403c47408cec2bcd617f24a3807948",
+      "final_url": "https://mlky.cbpt.cnki.net/robots.txt"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi",
+      "checked_at": "2026-10-20T15:40:32+00:00",
+      "status": 200,
+      "bytes": 103344,
+      "sha256": "df260d3546ed6b1b8a6c849794fc98d4cfc49f9655f9683a2793fe57c2e81fe3",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/3e80d42134d45e9cfdda5875429009f8",
+      "checked_at": "2026-10-20T15:40:35+00:00",
+      "status": 200,
+      "bytes": 101566,
+      "sha256": "a7823df852c0c22d16c966dd7cbf1b381561752be07454a50fef1e57b215d8ea",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/3e80d42134d45e9cfdda5875429009f8"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/d16ff7afc35b99e4ae4cb6da12cd9653",
+      "checked_at": "2026-10-20T15:40:36+00:00",
+      "status": 200,
+      "bytes": 101774,
+      "sha256": "4583a90c7b96932607aa579ab0d4f4cab8a3d1c87a077d517f37a228b1485236",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/d16ff7afc35b99e4ae4cb6da12cd9653"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/daf2e0cab732df7e1b5eb7d9bd57df6d",
+      "checked_at": "2026-10-20T15:40:38+00:00",
+      "status": 200,
+      "bytes": 104966,
+      "sha256": "c3003579e688f7cfcbcd4e9ca3eb745647abb764e0473e84bb1f5c5868c29588",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/daf2e0cab732df7e1b5eb7d9bd57df6d"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/2905079960837411221f49c132589602",
+      "checked_at": "2026-10-20T15:40:40+00:00",
+      "status": 200,
+      "bytes": 104175,
+      "sha256": "fc7a8faf141141b16ee698857edc52a19096ceeec3299fee8d9362f6ce2fddf2",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/2905079960837411221f49c132589602"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/d288ec35a8182281a141cb0e19823621",
+      "checked_at": "2026-10-20T15:40:42+00:00",
+      "status": 200,
+      "bytes": 102798,
+      "sha256": "4a08205586f43e1de98bb8cc4cafcb3a192c6c149df959304833d784298dc215",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/d288ec35a8182281a141cb0e19823621"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/72e59dc7a264786fdd7f0e1a0da24bad",
+      "checked_at": "2026-10-20T15:40:43+00:00",
+      "status": 200,
+      "bytes": 101757,
+      "sha256": "2bc84b7b1dc62095fd8ec953f3329e4424fea77ff68bb651753290d11e39a94e",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/72e59dc7a264786fdd7f0e1a0da24bad"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/653ede98f8754b8a15168cb686385e54",
+      "checked_at": "2026-10-20T15:40:45+00:00",
+      "status": 200,
+      "bytes": 100138,
+      "sha256": "38de2cae6129e61f8cc86c574bde64ad80f8e0206b24edb914204487a401ef47",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/653ede98f8754b8a15168cb686385e54"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/bc00e8b85efb04dfb52c65db39ff072f",
+      "checked_at": "2026-10-20T15:40:46+00:00",
+      "status": 200,
+      "bytes": 99199,
+      "sha256": "96effa9a7f659b450a660c77dd1e6948b4f0952d90b1d5c927cabcfc54114aea",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/bc00e8b85efb04dfb52c65db39ff072f"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/54fd758256393420c272eed1abb7cd40",
+      "checked_at": "2026-10-20T15:40:48+00:00",
+      "status": 200,
+      "bytes": 101799,
+      "sha256": "6a1764319e79a643997f62357307494515a528bd6b8a5ef9fef2f6d4bc06057b",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/54fd758256393420c272eed1abb7cd40"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/565e0910759c14ad0d466ea24b761ed2",
+      "checked_at": "2026-10-20T15:40:50+00:00",
+      "status": 200,
+      "bytes": 102964,
+      "sha256": "f1d646245723ff693d0d8127c4e4fefaaddbe1d6ddac9265de2189cc115811b1",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/565e0910759c14ad0d466ea24b761ed2"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
+      "checked_at": "2026-10-20T15:40:51+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/",
+      "checked_at": "2026-10-20T15:40:54+00:00",
+      "status": 200,
+      "bytes": 44713,
+      "sha256": "751259cddb4bfa9ba37c10af88c8e50c93ff1081f0899cd3c51777699d2b212a",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2464&fid=69",
+      "checked_at": "2026-10-20T15:40:56+00:00",
+      "status": 200,
+      "bytes": 23934,
+      "sha256": "7d4fbf56f0cfa8d15d2cccf281dbedcdefb50d5b9e1d8a1b34b9bbd4fb7f856b",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2464&fid=69"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2473&fid=69",
+      "checked_at": "2026-10-20T15:40:57+00:00",
+      "status": 200,
+      "bytes": 27170,
+      "sha256": "e664a43b56c7a2f4d037ec1c11f98546987751e06481383c98dba5725ff6a9ed",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2473&fid=69"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2465",
+      "checked_at": "2026-10-20T15:40:58+00:00",
+      "status": 200,
+      "bytes": 48598,
+      "sha256": "703dd491427dfad0afe2db1a4891146a069cf5b436fc0d9b00692f7729f329a1",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2465"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2458",
+      "checked_at": "2026-10-20T15:41:00+00:00",
+      "status": 200,
+      "bytes": 52142,
+      "sha256": "5dc9521e9daa0a72ee0c7f86912404ce6024c2c9ad1f6edc63e95b9740752740",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2458"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2457",
+      "checked_at": "2026-10-20T15:41:02+00:00",
+      "status": 200,
+      "bytes": 49141,
+      "sha256": "11bd0b5a18e23f4dfc3e43779a37fca780b9db0a39976c3409a1b659bece9292",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2457"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2447",
+      "checked_at": "2026-10-20T15:41:04+00:00",
+      "status": 200,
+      "bytes": 46119,
+      "sha256": "aea81a96a75c016e1698d09fb92daab79abdce01c037098ee2cc1aa60f6c33d7",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2447"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2430",
+      "checked_at": "2026-10-20T15:41:08+00:00",
+      "status": 200,
+      "bytes": 45659,
+      "sha256": "6b56546f93ec04bff6d6d41d0e87653f2e65addaf3086bef534af5d10db82cce",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2430"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2429",
+      "checked_at": "2026-10-20T15:41:11+00:00",
+      "status": 200,
+      "bytes": 44670,
+      "sha256": "681f1c59e162210661de82a3e6a63c998101917211de0bec6e2692d5164550f1",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2429"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2423",
+      "checked_at": "2026-10-20T15:41:12+00:00",
+      "status": 200,
+      "bytes": 65881,
+      "sha256": "1405e928f12babd66e4497fc98e41f2fb850f515c98f0e82fd119139b19b293c",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2423"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2422",
+      "checked_at": "2026-10-20T15:41:13+00:00",
+      "status": 200,
+      "bytes": 43501,
+      "sha256": "0270d2cc81d8454ccb3bd4f073d6e122d3a5e68408de6019e330381713e07a16",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2422"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2416",
+      "checked_at": "2026-10-20T15:41:15+00:00",
+      "status": 200,
+      "bytes": 43771,
+      "sha256": "e8ec96d7b43ba1c0ad84dd7dbd3ab1881eb9ae308aa14298964f247531f6bece",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2416"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2474",
+      "checked_at": "2026-10-20T15:41:16+00:00",
+      "status": 200,
+      "bytes": 49828,
+      "sha256": "7aeb96d21ec9d974cca8be94378882f1f9b1de8a48d700c4f983f02872a87a86",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2474"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2468",
+      "checked_at": "2026-10-20T15:41:17+00:00",
+      "status": 200,
+      "bytes": 45077,
+      "sha256": "4928ddb6feca0d16cfcb21a1768c56f312df642706eecfa63d1bf4dd77869980",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2468"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2456",
+      "checked_at": "2026-10-20T15:41:18+00:00",
+      "status": 200,
+      "bytes": 52591,
+      "sha256": "a2aac5c1438d6b182eb6c9f6eab28f7d197c848fee42eaa7dee1f7396340918e",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2456"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2451",
+      "checked_at": "2026-10-20T15:41:20+00:00",
+      "status": 200,
+      "bytes": 40824,
+      "sha256": "787a202fa2bccb47028a46f3171693473e775934aa7f66294e0fc45ad0325648",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2451"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/robots.txt",
+      "checked_at": "2026-10-20T15:41:21+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/xsyj/kydt.htm",
+      "checked_at": "2026-10-20T15:41:23+00:00",
+      "status": 200,
+      "bytes": 34806,
+      "sha256": "4375d3ddc85779632a0a22753e8ac4c7f9d6acb949bbbe1ac868f96408c8399f",
+      "final_url": "https://marxism.snnu.edu.cn/xsyj/kydt.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/zsxx/bss.htm",
+      "checked_at": "2026-10-20T15:41:24+00:00",
+      "status": 200,
+      "bytes": 29698,
+      "sha256": "5293a1cd106fe347aae65425e2cfacfbffe6511bc272e0500aa1e13aa374ec1e",
+      "final_url": "https://marxism.snnu.edu.cn/zsxx/bss.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/",
+      "checked_at": "2026-10-20T15:41:25+00:00",
+      "status": 200,
+      "bytes": 68740,
+      "sha256": "e9aa4c421e5872394aa325250eecb37095f51f74fb770ac65025cae8dc2032c3",
+      "final_url": "https://marxism.snnu.edu.cn/"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/16890.htm",
+      "checked_at": "2026-10-20T15:41:26+00:00",
+      "status": 200,
+      "bytes": 28700,
+      "sha256": "81a78ed40d785cd02fccf93115c66c0191172957998d19cc1450ad567c402772",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/16890.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/16880.htm",
+      "checked_at": "2026-10-20T15:41:28+00:00",
+      "status": 200,
+      "bytes": 29131,
+      "sha256": "a200312d6cb8205d3f6a7942ef819ab484dcbed670043d83d6d06d446847887a",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/16880.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/16870.htm",
+      "checked_at": "2026-10-20T15:41:29+00:00",
+      "status": 200,
+      "bytes": 28815,
+      "sha256": "01298b59be03a387edafc69e30ff48021a5ba157fe6f508969a6da29d6506bd8",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/16870.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/16860.htm",
+      "checked_at": "2026-10-20T15:41:30+00:00",
+      "status": 200,
+      "bytes": 29043,
+      "sha256": "86630955806b3e26818d1e203be15303d1f0957015b72a1d3078f9d7d7a5231c",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/16860.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/16770.htm",
+      "checked_at": "2026-10-20T15:41:31+00:00",
+      "status": 200,
+      "bytes": 29107,
+      "sha256": "6f4f732e25d4e940b93e3436e9a1b0acfaceafd9fda585e7363317028661c651",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/16770.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/16720.htm",
+      "checked_at": "2026-10-20T15:41:32+00:00",
+      "status": 200,
+      "bytes": 29233,
+      "sha256": "b508e6e9dd94d7b5f23895fc50b582294b5d28bd5450075fe41d662444f00d8d",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/16720.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/16630.htm",
+      "checked_at": "2026-10-20T15:41:34+00:00",
+      "status": 200,
+      "bytes": 29400,
+      "sha256": "9d7d75b0c8b57f675d129a50056fac10cd9aa79a8dfa48e595a46e489e128749",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/16630.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/16620.htm",
+      "checked_at": "2026-10-20T15:41:35+00:00",
+      "status": 200,
+      "bytes": 29291,
+      "sha256": "e3a48982a95e54f250f8a8679f5719945f0adedea4d18b3cd911969c6c823c45",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/16620.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/16610.htm",
+      "checked_at": "2026-10-20T15:41:36+00:00",
+      "status": 200,
+      "bytes": 29117,
+      "sha256": "6bd65b38b6f3226265df83c7ff78365e113c0ca4a17675780ab8fd4fce6ca422",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/16610.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/15880.htm",
+      "checked_at": "2026-10-20T15:41:37+00:00",
+      "status": 200,
+      "bytes": 28846,
+      "sha256": "3cc3bb6129fe585725e031efaddee17131b5e0d0ee08bbd89a2a49100f597573",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/15880.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/15850.htm",
+      "checked_at": "2026-10-20T15:41:38+00:00",
+      "status": 200,
+      "bytes": 28961,
+      "sha256": "7286a9c7b9f7e4264dad12e4e6070e50f5e1af73ce3351999422cd205719ca5c",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/15850.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/15840.htm",
+      "checked_at": "2026-10-20T15:41:40+00:00",
+      "status": 200,
+      "bytes": 28960,
+      "sha256": "43c0cf5be4d3a0dbb04c56ede9fa5f222a19e6510ab418e2ac084223daa5c608",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/15840.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/15830.htm",
+      "checked_at": "2026-10-20T15:41:41+00:00",
+      "status": 200,
+      "bytes": 29231,
+      "sha256": "d7831095144ae154760602354600afc8b716a9820b64af9a304775427fe470dc",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/15830.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/15820.htm",
+      "checked_at": "2026-10-20T15:41:42+00:00",
+      "status": 200,
+      "bytes": 29000,
+      "sha256": "b67da7b038b9df6c55e2fac0be909f6ec3933641eb776574cc2243628b0d1a0c",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/15820.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1034/15810.htm",
+      "checked_at": "2026-10-20T15:41:43+00:00",
+      "status": 200,
+      "bytes": 29518,
+      "sha256": "3abdee86f1301d08517147752e91a3a5d34b3d9db10a6f493f8858b6cfa8b750",
+      "final_url": "https://marxism.snnu.edu.cn/info/1034/15810.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1056/6121.htm",
+      "checked_at": "2026-10-20T15:41:44+00:00",
+      "status": 200,
+      "bytes": 32851,
+      "sha256": "219174d20a7f07f3d2fa0caa5cba3270c90c36961e0ed4cdc55b4c569f586709",
+      "final_url": "https://marxism.snnu.edu.cn/info/1056/6121.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1056/6084.htm",
+      "checked_at": "2026-10-20T15:41:46+00:00",
+      "status": 200,
+      "bytes": 77657,
+      "sha256": "9234fd0c9fa280ba1ff9ed7a6c701188085c3248df9c59524c19d16347e4710f",
+      "final_url": "https://marxism.snnu.edu.cn/info/1056/6084.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1056/5067.htm",
+      "checked_at": "2026-10-20T15:41:47+00:00",
+      "status": 200,
+      "bytes": 59586,
+      "sha256": "6678ef1ac64b33c7e0df29f6c6af0596b27853939ef4fd299413cee8d4eb6dfb",
+      "final_url": "https://marxism.snnu.edu.cn/info/1056/5067.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1056/3181.htm",
+      "checked_at": "2026-10-20T15:41:48+00:00",
+      "status": 200,
+      "bytes": 33503,
+      "sha256": "0d615c4319890fcfd92655de6b596dc2bc33a7141c78ae3abe826f32bc1e0161",
+      "final_url": "https://marxism.snnu.edu.cn/info/1056/3181.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1056/3094.htm",
+      "checked_at": "2026-10-20T15:41:49+00:00",
+      "status": 200,
+      "bytes": 34949,
+      "sha256": "f59120b586f7b042fe8e6d27005d0f4a927c2b3d0124418ddad03e3e380e4e11",
+      "final_url": "https://marxism.snnu.edu.cn/info/1056/3094.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1061/16910.htm",
+      "checked_at": "2026-10-20T15:41:50+00:00",
+      "status": 200,
+      "bytes": 30748,
+      "sha256": "0876612cb79a02e126f7749335ae115b83048a068771de307b2261b3e42f32ce",
+      "final_url": "https://marxism.snnu.edu.cn/info/1061/16910.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/info/1061/16710.htm",
+      "checked_at": "2026-10-20T15:41:52+00:00",
+      "status": 200,
+      "bytes": 29903,
+      "sha256": "0cb019c01c88ffd90b35dbde8a674594cb9dcfc30491880aca0c0ed182857b91",
+      "final_url": "https://marxism.snnu.edu.cn/info/1061/16710.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/robots.txt",
+      "checked_at": "2026-10-20T15:41:53+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/xkxs/xsdt.htm",
+      "checked_at": "2026-10-20T15:41:56+00:00",
+      "status": 200,
+      "bytes": 43260,
+      "sha256": "ec000567aa144631d971c4fed55963316965b1f9a591d7773baa8d3b975cd26c",
+      "final_url": "https://marx.ccnu.edu.cn/xkxs/xsdt.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/zsjy/zsxx.htm",
+      "checked_at": "2026-10-20T15:41:57+00:00",
+      "status": 200,
+      "bytes": 41505,
+      "sha256": "bde265c1e49709b6eb88de1736ef3ced6c2ea89b4f8775d2671f639ad10fa7f7",
+      "final_url": "https://marx.ccnu.edu.cn/zsjy/zsxx.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/",
+      "checked_at": "2026-10-20T15:41:58+00:00",
+      "status": 200,
+      "bytes": 68852,
+      "sha256": "b1d19c8ac284a7f44fde51561b2f8a27ad778910fa2d14e7214f5c32f137c44b",
+      "final_url": "https://marx.ccnu.edu.cn/"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/24136.htm",
+      "checked_at": "2026-10-20T15:41:59+00:00",
+      "status": 200,
+      "bytes": 50935,
+      "sha256": "4cf7257cf7641b8458ccf8c7cf3448755e474d2673fd5708dae1ef12aaa63e28",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/24136.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/24406.htm",
+      "checked_at": "2026-10-20T15:42:01+00:00",
+      "status": 200,
+      "bytes": 45492,
+      "sha256": "6006a1e43fc5d07d08da0a00f403164fc1d980586c7323dd4dd88de0ca5e2b65",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/24406.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/24386.htm",
+      "checked_at": "2026-10-20T15:42:02+00:00",
+      "status": 200,
+      "bytes": 53758,
+      "sha256": "78514700f63004fc4c8b02f64ba44840f4c1dba14c6adfbcb13ff98231eec57f",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/24386.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/23826.htm",
+      "checked_at": "2026-10-20T15:42:03+00:00",
+      "status": 200,
+      "bytes": 60619,
+      "sha256": "291951f40e6f41c486543a2f4ab4b4acd8a913463296a3b3e1b7329ab9f14c35",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/23826.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/23746.htm",
+      "checked_at": "2026-10-20T15:42:04+00:00",
+      "status": 200,
+      "bytes": 79713,
+      "sha256": "9af7e665d6b9825f3b943084053e32a35a4678a0fea839f82f90a3161d214d05",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/23746.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/24336.htm",
+      "checked_at": "2026-10-20T15:42:05+00:00",
+      "status": 200,
+      "bytes": 72652,
+      "sha256": "8d6e296217a38b900c2edb8f9c91f88aee7bc59dfca665878f13d37173755c6b",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/24336.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/24326.htm",
+      "checked_at": "2026-10-20T15:42:07+00:00",
+      "status": 200,
+      "bytes": 44682,
+      "sha256": "e28b26c3fa1d4520ccfb03d095c301527348afade985df677569b17a655d70ec",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/24326.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/24666.htm",
+      "checked_at": "2026-10-20T15:42:08+00:00",
+      "status": 200,
+      "bytes": 46422,
+      "sha256": "20041dfc7729deb901e3d92802f2a240b2b22e306f5928f6615f44bfe80fa4fc",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/24666.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/24656.htm",
+      "checked_at": "2026-10-20T15:42:09+00:00",
+      "status": 200,
+      "bytes": 89341,
+      "sha256": "6301b7c9f5b6e39bfd75e3964b42e2de00318ec5a050bd2ba42161c147b8c991",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/24656.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/22776.htm",
+      "checked_at": "2026-10-20T15:42:10+00:00",
+      "status": 200,
+      "bytes": 53432,
+      "sha256": "374dee534143ae680b0a23c32bf9333d79111375d7206dc737ddb7452816c458",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/22776.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/22516.htm",
+      "checked_at": "2026-10-20T15:42:11+00:00",
+      "status": 200,
+      "bytes": 47365,
+      "sha256": "711d996c4e3b06fc8d0f36087db6ef46f0c5c7ecdefb1c59c5d3c73a89b2fb04",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/22516.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1143/22266.htm",
+      "checked_at": "2026-10-20T15:42:13+00:00",
+      "status": 200,
+      "bytes": 49774,
+      "sha256": "4254aa73b64dfef3459badd522c8cc37d19489652bb7159669f4ef805d0c74fc",
+      "final_url": "https://marx.ccnu.edu.cn/info/1143/22266.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1275/16793.htm",
+      "checked_at": "2026-10-20T15:42:14+00:00",
+      "status": 200,
+      "bytes": 39915,
+      "sha256": "ab81cb816cd272117a374851f0d025d3164058f7a77a8a40f519467a70f32138",
+      "final_url": "https://marx.ccnu.edu.cn/info/1275/16793.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1275/16794.htm",
+      "checked_at": "2026-10-20T15:42:15+00:00",
+      "status": 200,
+      "bytes": 39847,
+      "sha256": "795d850ea2b327fa028187d7fb73665582cf453ec47642eacc489e38b6fb8bed",
+      "final_url": "https://marx.ccnu.edu.cn/info/1275/16794.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1275/16795.htm",
+      "checked_at": "2026-10-20T15:42:16+00:00",
+      "status": 200,
+      "bytes": 39865,
+      "sha256": "a44e99b1abb095ab1353ed909f659f7c99229eb29c6e14993e1821dadfc9e8c8",
+      "final_url": "https://marx.ccnu.edu.cn/info/1275/16795.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1275/16796.htm",
+      "checked_at": "2026-10-20T15:42:17+00:00",
+      "status": 200,
+      "bytes": 39658,
+      "sha256": "8d6942399b070cbd835f49ceaefc690c776539333375c1430d29d80b8f26cfeb",
+      "final_url": "https://marx.ccnu.edu.cn/info/1275/16796.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1275/16798.htm",
+      "checked_at": "2026-10-20T15:42:19+00:00",
+      "status": 200,
+      "bytes": 38196,
+      "sha256": "2c6d1313f2d8dd6e39c52e8a74aac1d6e8d9fa2187b167e2efc7c099c3bebd7e",
+      "final_url": "https://marx.ccnu.edu.cn/info/1275/16798.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1275/16799.htm",
+      "checked_at": "2026-10-20T15:42:20+00:00",
+      "status": 200,
+      "bytes": 39114,
+      "sha256": "8feab11a07c8be062dda0ab8364c58daf0f691d30321835de4bf6f5bb2deafba",
+      "final_url": "https://marx.ccnu.edu.cn/info/1275/16799.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1275/16800.htm",
+      "checked_at": "2026-10-20T15:42:21+00:00",
+      "status": 200,
+      "bytes": 37704,
+      "sha256": "5c1edc19e5174f7b3361026e47bb3111955f5bd0a925938c769ea7cd4b4eecb8",
+      "final_url": "https://marx.ccnu.edu.cn/info/1275/16800.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1275/16801.htm",
+      "checked_at": "2026-10-20T15:42:22+00:00",
+      "status": 200,
+      "bytes": 38221,
+      "sha256": "3ba0913d9a364fea866f0c9ca2c21ca01c1849d55690c4c9c2a05309fc46ac1d",
+      "final_url": "https://marx.ccnu.edu.cn/info/1275/16801.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1275/10215.htm",
+      "checked_at": "2026-10-20T15:42:23+00:00",
+      "status": 200,
+      "bytes": 133830,
+      "sha256": "ac01484d92316679bb593b9aecf9acf6cc610f461ccc55efa7a375b76f2a03c6",
+      "final_url": "https://marx.ccnu.edu.cn/info/1275/10215.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/info/1024/18896.htm",
+      "checked_at": "2026-10-20T15:42:25+00:00",
+      "status": 200,
+      "bytes": 85949,
+      "sha256": "2642a0b9aed7613b9bae8e63f0b1a3bf09aec6d7dc2920d7e6f63ee3e2429a96",
+      "final_url": "https://marx.ccnu.edu.cn/info/1024/18896.htm"
+    }
+  ],
+  "sample": [
+    {
+      "title": "坚持用党的创新理论凝心铸魂是党的思想理论建设的根本",
+      "authors": [
+        "陈锡喜"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-08-15",
+      "web_date": "2026-08-15",
+      "issue_year": 2026,
+      "issue_number": 8,
+      "abstract_excerpt": "“坚持用党的创新理论凝心铸魂”,是解决“建设什么样的长期执政的马克思主义政党、怎样建设长期执政的马克思主义政党”这一重大时代课题在思想理论建设方面的根本任务。党要长期执政,必须保持先进性,而思想建党、理论强党是保持党的先进性的思想理论前提。…",
+      "keywords": [
+        "党的创新理论",
+        "凝心铸魂",
+        "思想理论建设"
+      ],
+      "evidence_level": "abstract",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/3e80d42134d45e9cfdda5875429009f8",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-10-20T15:40:31+00:00",
+      "last_verified": "2026-10-20T15:40:36+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/3e80d42134d45e9cfdda5875429009f8"
+      ],
+      "id": "7c573a3a1b2c3513",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "theory"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "中国共产党与中国人民前途命运的根本改变——学习习近平在庆祝中国共产党成立105周年大会上的讲话",
+      "authors": [
+        "杨德山"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-08-15",
+      "web_date": "2026-08-15",
+      "issue_year": 2026,
+      "issue_number": 8,
+      "abstract_excerpt": "中国共产党成立前的80年,中国人民前途昏暗,命运凄惨。中国共产党诞生后,领导人民经过28年的不懈奋斗,摆脱了中国人民被欺负、被压迫、被奴役的命运。新中国成立后,党领导人民建立了社会主义制度,人民真正成为国家、社会和自己命运的主人,社会主义经…",
+      "keywords": [
+        "中国共产党",
+        "中国人民",
+        "前途命运",
+        "改变"
+      ],
+      "evidence_level": "abstract",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/d16ff7afc35b99e4ae4cb6da12cd9653",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-10-20T15:40:31+00:00",
+      "last_verified": "2026-10-20T15:40:38+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/d16ff7afc35b99e4ae4cb6da12cd9653"
+      ],
+      "id": "5ef71dab331fdb6f",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "theory",
+        "party"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "中国共产党对“党的建设”概念的发展及其术语革命意义",
+      "authors": [
+        "赵淑梅",
+        "高雪莲"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-08-15",
+      "web_date": "2026-08-15",
+      "issue_year": 2026,
+      "issue_number": 8,
+      "abstract_excerpt": "马克思、恩格斯创立了马克思主义党的建设理论。列宁在领导创建新型马克思主义政党的过程中提出“党的建设”概念。中国共产党继承式使用和创造性发展了“党的建设”概念,构建起由党的建设主线、党的建设方针、党的建设布局、党的建设目标等构成的概念群,实现…",
+      "keywords": [
+        "党的建设",
+        "标识性概念",
+        "马克思主义党建理论",
+        "术语革命"
+      ],
+      "evidence_level": "abstract",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/daf2e0cab732df7e1b5eb7d9bd57df6d",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-10-20T15:40:31+00:00",
+      "last_verified": "2026-10-20T15:40:40+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/daf2e0cab732df7e1b5eb7d9bd57df6d"
+      ],
+      "id": "3dc276a9cf05e932",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "party"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "当代资本主义超级剥削的新形态及其影响",
+      "authors": [
+        "刘溪"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-08-15",
+      "web_date": "2026-08-15",
+      "issue_year": 2026,
+      "issue_number": 8,
+      "abstract_excerpt": "超级剥削作为当代资本主义的基本剥削方式,在金融资本与数字技术驱动下呈现出新的形态:剥削形式从地域分散向全球网络化扩展,剥削手段从生产主导向金融支配与数据垄断进阶,剥削范围从有限时空向全天候、全域化拓展,剥削层次从经济剥削向全面剥削延伸。然而…",
+      "keywords": [
+        "超级剥削",
+        "全球价值链分工",
+        "资本积累",
+        "资本主义危机"
+      ],
+      "evidence_level": "abstract",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/2905079960837411221f49c132589602",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-10-20T15:40:31+00:00",
+      "last_verified": "2026-10-20T15:40:42+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/2905079960837411221f49c132589602"
+      ],
+      "id": "6b7c87b9d2785eef",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "capital"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    }
+  ]
+}
