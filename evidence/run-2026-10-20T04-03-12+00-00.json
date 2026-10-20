@@ -1,0 +1,471 @@
+{
+  "run": {
+    "id": "2026-10-20T04-03-12+00-00",
+    "at": "2026-10-20T04:03:12+00:00",
+    "new_items": 13,
+    "verified_items": 58,
+    "source_ok": 1,
+    "source_partial": 3,
+    "source_failed": 0,
+    "outcome": "success",
+    "environment": "local Windows/Python",
+    "cloud_verified": false
+  },
+  "sources": [
+    {
+      "id": "mlky",
+      "name": "马克思主义理论学科研究",
+      "home": "https://mlky.cbpt.cnki.net/portal",
+      "rights": "未发现开放转载许可；仅建立书目索引和不超过120字的可核实摘要摘录，不采集受限全文。",
+      "checked_at": "2026-10-20T04:03:12+00:00",
+      "errors": [],
+      "http_successes": 11,
+      "items": 10,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "keywords",
+        "kind",
+        "last_verified",
+        "publication_date",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:03:12+00:00",
+        "url": "https://mlky.cbpt.cnki.net/robots.txt",
+        "allowed": true,
+        "status": "200_non_robots_response",
+        "note": "响应不是有效robots指令；不是转载许可。仅低频公开元数据索引。"
+      },
+      "status": "ok",
+      "last_success": "2026-10-20T04:03:12+00:00"
+    },
+    {
+      "id": "socialism",
+      "name": "社会主义研究",
+      "home": "https://socialismstudies.ccnu.edu.cn/",
+      "rights": "未发现开放转载许可；仅建立书目索引和不超过120字的公开摘要摘录。详情被拒绝时不绕过。",
+      "checked_at": "2026-10-20T04:03:12+00:00",
+      "errors": [
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2464&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2473&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 16,
+      "items": 13,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "keywords",
+        "kind",
+        "last_verified",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:03:14+00:00",
+        "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T04:03:12+00:00"
+    },
+    {
+      "id": "snnu",
+      "name": "陕西师范大学马克思主义学院",
+      "home": "https://marxism.snnu.edu.cn/",
+      "rights": "页面标注版权所有，未发现开放转载许可；仅索引题名、公开元数据和短摘录，保留原文链接。",
+      "checked_at": "2026-10-20T04:03:12+00:00",
+      "errors": [
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6121.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6084.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/3181.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 19,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:03:16+00:00",
+        "url": "https://marxism.snnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T04:03:12+00:00"
+    },
+    {
+      "id": "ccnu",
+      "name": "华中师范大学马克思主义学院",
+      "home": "https://marx.ccnu.edu.cn/",
+      "rights": "页面标注版权所有，未发现开放转载许可；仅索引学术和招生元数据及短摘录，不复制通知全文。",
+      "checked_at": "2026-10-20T04:03:12+00:00",
+      "errors": [
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16793.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16794.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16795.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16796.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16799.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16801.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 16,
+      "fields": [
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:03:21+00:00",
+        "url": "https://marx.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T04:03:12+00:00"
+    }
+  ],
+  "http": [
+    {
+      "url": "https://mlky.cbpt.cnki.net/robots.txt",
+      "checked_at": "2026-10-20T04:03:12+00:00",
+      "status": 200,
+      "bytes": 96,
+      "sha256": "ccb90812d8ece22365ce83e876a9a91610403c47408cec2bcd617f24a3807948",
+      "final_url": "https://mlky.cbpt.cnki.net/robots.txt"
+    },
+    {
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi",
+      "checked_at": "2026-10-20T04:03:13+00:00",
+      "status": 200,
+      "bytes": 103343,
+      "sha256": "69275bfd8ee88f5523ef1d4433e412d8c2f77c7d87b019e40c5a15b8a39c68e0",
+      "final_url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
+      "checked_at": "2026-10-20T04:03:14+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/",
+      "checked_at": "2026-10-20T04:03:16+00:00",
+      "status": 200,
+      "bytes": 44713,
+      "sha256": "751259cddb4bfa9ba37c10af88c8e50c93ff1081f0899cd3c51777699d2b212a",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/robots.txt",
+      "checked_at": "2026-10-20T04:03:16+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/xsyj/kydt.htm",
+      "checked_at": "2026-10-20T04:03:18+00:00",
+      "status": 200,
+      "bytes": 34806,
+      "sha256": "4375d3ddc85779632a0a22753e8ac4c7f9d6acb949bbbe1ac868f96408c8399f",
+      "final_url": "https://marxism.snnu.edu.cn/xsyj/kydt.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/zsxx/bss.htm",
+      "checked_at": "2026-10-20T04:03:19+00:00",
+      "status": 200,
+      "bytes": 29698,
+      "sha256": "5293a1cd106fe347aae65425e2cfacfbffe6511bc272e0500aa1e13aa374ec1e",
+      "final_url": "https://marxism.snnu.edu.cn/zsxx/bss.htm"
+    },
+    {
+      "url": "https://marxism.snnu.edu.cn/",
+      "checked_at": "2026-10-20T04:03:20+00:00",
+      "status": 200,
+      "bytes": 68742,
+      "sha256": "4a209f3c83ed26c49dd61f62bbd448be112c7733cacae7235dfcdad9de128a37",
+      "final_url": "https://marxism.snnu.edu.cn/"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/robots.txt",
+      "checked_at": "2026-10-20T04:03:21+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/xkxs/xsdt.htm",
+      "checked_at": "2026-10-20T04:03:22+00:00",
+      "status": 200,
+      "bytes": 43260,
+      "sha256": "ec000567aa144631d971c4fed55963316965b1f9a591d7773baa8d3b975cd26c",
+      "final_url": "https://marx.ccnu.edu.cn/xkxs/xsdt.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/zsjy/zsxx.htm",
+      "checked_at": "2026-10-20T04:03:23+00:00",
+      "status": 200,
+      "bytes": 41505,
+      "sha256": "bde265c1e49709b6eb88de1736ef3ced6c2ea89b4f8775d2671f639ad10fa7f7",
+      "final_url": "https://marx.ccnu.edu.cn/zsjy/zsxx.htm"
+    },
+    {
+      "url": "https://marx.ccnu.edu.cn/",
+      "checked_at": "2026-10-20T04:03:24+00:00",
+      "status": 200,
+      "bytes": 68852,
+      "sha256": "b1d19c8ac284a7f44fde51561b2f8a27ad778910fa2d14e7214f5c32f137c44b",
+      "final_url": "https://marx.ccnu.edu.cn/"
+    }
+  ],
+  "sample": [
+    {
+      "title": "坚持用党的创新理论凝心铸魂是党的思想理论建设的根本",
+      "authors": [
+        "陈锡喜"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-08-15",
+      "web_date": "2026-08-15",
+      "issue_year": 2026,
+      "issue_number": 8,
+      "abstract_excerpt": "“坚持用党的创新理论凝心铸魂”,是解决“建设什么样的长期执政的马克思主义政党、怎样建设长期执政的马克思主义政党”这一重大时代课题在思想理论建设方面的根本任务。党要长期执政,必须保持先进性,而思想建党、理论强党是保持党的先进性的思想理论前提。…",
+      "keywords": [
+        "党的创新理论",
+        "凝心铸魂",
+        "思想理论建设"
+      ],
+      "evidence_level": "abstract",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/3e80d42134d45e9cfdda5875429009f8",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-10-20T04:03:12+00:00",
+      "last_verified": "2026-10-20T04:03:12+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/3e80d42134d45e9cfdda5875429009f8"
+      ],
+      "id": "7c573a3a1b2c3513",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "theory"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "中国共产党与中国人民前途命运的根本改变——学习习近平在庆祝中国共产党成立105周年大会上的讲话",
+      "authors": [
+        "杨德山"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-08-15",
+      "web_date": "2026-08-15",
+      "issue_year": 2026,
+      "issue_number": 8,
+      "abstract_excerpt": "中国共产党成立前的80年,中国人民前途昏暗,命运凄惨。中国共产党诞生后,领导人民经过28年的不懈奋斗,摆脱了中国人民被欺负、被压迫、被奴役的命运。新中国成立后,党领导人民建立了社会主义制度,人民真正成为国家、社会和自己命运的主人,社会主义经…",
+      "keywords": [
+        "中国共产党",
+        "中国人民",
+        "前途命运",
+        "改变"
+      ],
+      "evidence_level": "abstract",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/d16ff7afc35b99e4ae4cb6da12cd9653",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-10-20T04:03:12+00:00",
+      "last_verified": "2026-10-20T04:03:12+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/d16ff7afc35b99e4ae4cb6da12cd9653"
+      ],
+      "id": "5ef71dab331fdb6f",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "theory",
+        "party",
+        "socialism"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "中国共产党对“党的建设”概念的发展及其术语革命意义",
+      "authors": [
+        "赵淑梅",
+        "高雪莲"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-08-15",
+      "web_date": "2026-08-15",
+      "issue_year": 2026,
+      "issue_number": 8,
+      "abstract_excerpt": "马克思、恩格斯创立了马克思主义党的建设理论。列宁在领导创建新型马克思主义政党的过程中提出“党的建设”概念。中国共产党继承式使用和创造性发展了“党的建设”概念,构建起由党的建设主线、党的建设方针、党的建设布局、党的建设目标等构成的概念群,实现…",
+      "keywords": [
+        "党的建设",
+        "标识性概念",
+        "马克思主义党建理论",
+        "术语革命"
+      ],
+      "evidence_level": "abstract",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/daf2e0cab732df7e1b5eb7d9bd57df6d",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-10-20T04:03:12+00:00",
+      "last_verified": "2026-10-20T04:03:12+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/daf2e0cab732df7e1b5eb7d9bd57df6d"
+      ],
+      "id": "3dc276a9cf05e932",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "party",
+        "socialism"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "当代资本主义超级剥削的新形态及其影响",
+      "authors": [
+        "刘溪"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-08-15",
+      "web_date": "2026-08-15",
+      "issue_year": 2026,
+      "issue_number": 8,
+      "abstract_excerpt": "超级剥削作为当代资本主义的基本剥削方式,在金融资本与数字技术驱动下呈现出新的形态:剥削形式从地域分散向全球网络化扩展,剥削手段从生产主导向金融支配与数据垄断进阶,剥削范围从有限时空向全天候、全域化拓展,剥削层次从经济剥削向全面剥削延伸。然而…",
+      "keywords": [
+        "超级剥削",
+        "全球价值链分工",
+        "资本积累",
+        "资本主义危机"
+      ],
+      "evidence_level": "abstract",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/2905079960837411221f49c132589602",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-10-20T04:03:12+00:00",
+      "last_verified": "2026-10-20T04:03:12+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/2905079960837411221f49c132589602"
+      ],
+      "id": "6b7c87b9d2785eef",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "capital"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    }
+  ]
+}

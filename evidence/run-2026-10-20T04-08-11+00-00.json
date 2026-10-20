@@ -1,0 +1,406 @@
+{
+  "run": {
+    "id": "2026-10-20T04-08-11+00-00",
+    "at": "2026-10-20T04:08:11+00:00",
+    "new_items": 0,
+    "verified_items": 13,
+    "source_ok": 1,
+    "source_partial": 3,
+    "source_failed": 0,
+    "outcome": "success",
+    "environment": "local Windows/Python",
+    "cloud_verified": false
+  },
+  "sources": [
+    {
+      "id": "mlky",
+      "name": "马克思主义理论学科研究",
+      "home": "https://mlky.cbpt.cnki.net/portal",
+      "rights": "未发现开放转载许可；仅建立书目索引和不超过120字的可核实摘要摘录，不采集受限全文。",
+      "checked_at": "2026-10-20T04:03:12+00:00",
+      "errors": [],
+      "http_successes": 11,
+      "items": 10,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "keywords",
+        "kind",
+        "last_verified",
+        "publication_date",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:03:12+00:00",
+        "url": "https://mlky.cbpt.cnki.net/robots.txt",
+        "allowed": true,
+        "status": "200_non_robots_response",
+        "note": "响应不是有效robots指令；不是转载许可。仅低频公开元数据索引。"
+      },
+      "status": "ok",
+      "last_success": "2026-10-20T04:03:12+00:00"
+    },
+    {
+      "id": "socialism",
+      "name": "社会主义研究",
+      "home": "https://socialismstudies.ccnu.edu.cn/",
+      "rights": "未发现开放转载许可；仅建立书目索引和不超过120字的公开摘要摘录。详情被拒绝时不绕过。",
+      "checked_at": "2026-10-20T04:08:11+00:00",
+      "errors": [
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2464&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2473&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 16,
+      "items": 13,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "keywords",
+        "kind",
+        "last_verified",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:08:11+00:00",
+        "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T04:08:11+00:00"
+    },
+    {
+      "id": "snnu",
+      "name": "陕西师范大学马克思主义学院",
+      "home": "https://marxism.snnu.edu.cn/",
+      "rights": "页面标注版权所有，未发现开放转载许可；仅索引题名、公开元数据和短摘录，保留原文链接。",
+      "checked_at": "2026-10-20T04:03:12+00:00",
+      "errors": [
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6121.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6084.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/3181.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 19,
+      "fields": [
+        "abstract_excerpt",
+        "authors",
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:03:16+00:00",
+        "url": "https://marxism.snnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T04:03:12+00:00"
+    },
+    {
+      "id": "ccnu",
+      "name": "华中师范大学马克思主义学院",
+      "home": "https://marx.ccnu.edu.cn/",
+      "rights": "页面标注版权所有，未发现开放转载许可；仅索引学术和招生元数据及短摘录，不复制通知全文。",
+      "checked_at": "2026-10-20T04:03:12+00:00",
+      "errors": [
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16793.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16794.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16795.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16796.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16799.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16801.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 16,
+      "fields": [
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T04:03:21+00:00",
+        "url": "https://marx.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "status": "partial",
+      "last_success": "2026-10-20T04:03:12+00:00"
+    }
+  ],
+  "http": [
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
+      "checked_at": "2026-10-20T04:08:11+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://socialismstudies.ccnu.edu.cn/",
+      "checked_at": "2026-10-20T04:08:12+00:00",
+      "status": 200,
+      "bytes": 44713,
+      "sha256": "751259cddb4bfa9ba37c10af88c8e50c93ff1081f0899cd3c51777699d2b212a",
+      "final_url": "https://socialismstudies.ccnu.edu.cn/"
+    }
+  ],
+  "sample": [
+    {
+      "title": "完善党的自我革命制度规范体系需要处理好的四对关系及其着力点",
+      "authors": [
+        "张瑞",
+        "王俊英"
+      ],
+      "journal": "社会主义研究",
+      "kind": "paper",
+      "publication_date": null,
+      "web_date": "2026-08-06",
+      "issue_year": 2026,
+      "issue_number": 3,
+      "abstract_excerpt": "中国共产党历来重视以制度建设推进自我革命。新时代完善党的自我革命制度规范体系是适应制度治党的客观要求,是规范自我革命的内在需要,是引领社会革命的制度保障。完善党的自我革命制度规范体系需要着力处理好守正与创新、权力与责任、形式与内容、部署与落…",
+      "evidence_level": "abstract",
+      "keywords": [
+        "中国共产党",
+        "自我革命制度规范体系",
+        "制度治党",
+        "从严治党 党的二十大报告提出了 “完善党的自我革命制度规范体系”的新要求。党的二十届三中全会进一步强调:“坚持用改革精神和严的标准管党治党,完善党的自我革命制度规范体系。”这一系列周密部署为今后党的建设工作指明了方向,明确了完善党的自我革命制度规范体系是管党治党的长远之计、根本之策。党的自我革命制度规范体系是以习近平同志为核心的党中央在管党治党实践中的经验总结,以党章为根本遵循,以民主集中制为核心,以引领伟大社会革命为目的,聚焦提升党的领导水平和长期执政能力,系统集成党的领导制度体系、党内法规制度体系、监督制约机制、全面从严治党责任制度、干部队伍建设机制等一系列制度规范。"
+      ],
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2465",
+      "source_id": "socialism",
+      "source_name": "社会主义研究",
+      "first_seen": "2026-10-20T04:08:11+00:00",
+      "last_verified": "2026-10-20T04:08:11+00:00",
+      "verified_urls": [
+        "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2465"
+      ],
+      "id": "66c632b613603145",
+      "verification": "部分核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "原始网页未给出精确出版日；网页日期不作为论文出版日",
+      "topics": [
+        "theory",
+        "party",
+        "socialism"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "新时代以来中国共产党自我革命话语的 溯源、形塑与叙事",
+      "authors": [
+        "陈红娟",
+        "潘俊杰"
+      ],
+      "journal": "社会主义研究",
+      "kind": "paper",
+      "publication_date": null,
+      "web_date": "2026-06-02",
+      "issue_year": 2026,
+      "issue_number": 2,
+      "abstract_excerpt": "从革命话语到自我革命话语的演进,体现了中国共产党政治话语在实践中的重构与创新。 立足诠释学视角分析自我革命话语的源流与出场逻辑,自我革命话语既保持着与革命话语的内在连续性,又实现了对革命话语前理解结构的辩证扬弃。从符号指涉和叙事结构来看,自…",
+      "evidence_level": "abstract",
+      "keywords": [
+        "革命",
+        "自我革命",
+        "话语",
+        "中国共产党",
+        "诠释学"
+      ],
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2458",
+      "source_id": "socialism",
+      "source_name": "社会主义研究",
+      "first_seen": "2026-10-20T04:08:11+00:00",
+      "last_verified": "2026-10-20T04:08:11+00:00",
+      "verified_urls": [
+        "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2458"
+      ],
+      "id": "e71e263f36a9a78d",
+      "verification": "部分核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "原始网页未给出精确出版日；网页日期不作为论文出版日",
+      "topics": [
+        "party",
+        "socialism"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "马克思恩格斯“概念”推演理路及对 中国自主知识体系构建的启示",
+      "authors": [
+        "栾淳钰",
+        "马祎凡"
+      ],
+      "journal": "社会主义研究",
+      "kind": "paper",
+      "publication_date": null,
+      "web_date": "2026-06-02",
+      "issue_year": 2026,
+      "issue_number": 2,
+      "abstract_excerpt": "“概念”是知识体系构建的基本单元。马克思恩格斯对“概念”的推演理路蕴含着历史 唯物主义方法论的深层逻辑,从马克思早期 “伟大的颠倒”经“天国到人间”的唯物主义转向、“细胞的集聚”的系统知识构建直至恩格斯晚年“术语的革命”的演进脉络揭示了概念…",
+      "evidence_level": "abstract",
+      "keywords": [
+        "马克思恩格斯",
+        "概念",
+        "术语的革命",
+        "中国哲学社会科学自主知识体系 习近平总书记曾提出 “加快构建中国特色哲学社会科学,归根结底是建构中国自主的知识体系” 的重要论断,指明了发展中国特色哲学社会科学的着力点。概念是知识体系的最小构成和认知单元。只有准确地把握概念的来源、特点以及检验方法,才能准确梳理概念、观点以及理论的内在逻辑,将社会历史现象转化为学科建设的研究范式,构建系统性的自主知识体系。当前,理论界对标识性概念的内涵意蕴、基本构成、实践应用等方面进行了初步探索,而鲜有对马克思恩格斯关于 “概念”的推演进行理论追溯与规律总结。因此,关于“概念”的学术研究仍有进一步探究的空间。鉴于此,通过回归经典著作,对马克思恩格斯“概念”的推演理路进行系统爬梳、深刻阐释其内在规律及现实启示,有助于增强具有中国特色的概念、观点及理论的解释力,推进中国哲学社会科学自主知识体系的建构。"
+      ],
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2457",
+      "source_id": "socialism",
+      "source_name": "社会主义研究",
+      "first_seen": "2026-10-20T04:08:11+00:00",
+      "last_verified": "2026-10-20T04:08:11+00:00",
+      "verified_urls": [
+        "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2457"
+      ],
+      "id": "6ec35113e3906fbd",
+      "verification": "部分核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "原始网页未给出精确出版日；网页日期不作为论文出版日",
+      "topics": [
+        "theory"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    },
+    {
+      "title": "百年变局视域下的“第二个结合”",
+      "authors": [
+        "余金成"
+      ],
+      "journal": "社会主义研究",
+      "kind": "paper",
+      "publication_date": null,
+      "web_date": "2026-03-25",
+      "issue_year": 2026,
+      "issue_number": 1,
+      "abstract_excerpt": "世界百年未有之大变局突显中华民族伟大复兴进程,昭示 “第二个结合”推动作用。百年 变局发端于世界两大经济模式重大调整,社会主义市场经济奠定了 “第二个结合”的体制基础;演进于历史两大文明形态重心易位,中华优秀传统文化展现了“第二个结合”的实…",
+      "evidence_level": "abstract",
+      "keywords": [
+        "百年变局",
+        "资本主义形塑",
+        "社会主义改革",
+        "中华文明 习近平总书记指出: “当前,我国处于近代以来最好的发展时期,世界处于百年未有之大变局,两者同步 交织、相互激荡。 ”变局之谓“大”意味着全局性、系统性改变,“百年未有”则强调该变化冲击了百年来的既有秩序。习近平总书记将之概括为:“新兴市场国家和发展中国家的崛起速度之快前所未有,新一轮科技革命和产业变革带来的新陈代谢和激烈竞争前所未有,全球治理体系与国际形势变化的不适应、不对称前所未有。”概言之,中国模式方兴未艾,西方模式持续承压",
+        "双方在对峙中合作,在演变中博弈。 变局打破了确定性,产生了需要应对的难题",
+        "同时,变局破坏了既有秩序,提供了新生力量崛起的契机。依据马克思主义理论,无论所变内容是什么,均系客观规律使然",
+        "唯物史观既认同社会发展规律存在,又明确该规律归根到底体现为经济因素对历史发展起决定性作用。这是认知当下世界百年变局的基本遵循。据此,认清百年变局要义有三:首推思想唤醒,需脱开既有思想窠臼,按照新的时代条件重塑发展理念",
+        "次在布局重构,应根据宏观场景变化重设发展战略",
+        "终在路径创新,当依据资源配置要求调整发展策略。 以上述理解为基础,把马克思主义基本原理与中华优秀传统文化相结合,正在成为中国顺应世界变局的战略选择。随着实践展开,人们越来越清楚地看到,百年变局的隐秘逻辑主线是:以个人主义价值观引领的市场经济,在攀上经济全球化和交往信息化高峰之后,已经难以胜任对资源配置整体性长期性的新要求,只能通过总体主义价值观予以应对。中华优秀传统文化萌生于人口生产关系,以儒家学说为载体,秉持家国一体理念和个人修齐治平价值,凝聚为社会本位原则,既能承接现代化成果实现中华民族伟大复兴的历史使命,也有望成为推动构建人类命运共同体的精神资源。"
+      ],
+      "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2447",
+      "source_id": "socialism",
+      "source_name": "社会主义研究",
+      "first_seen": "2026-10-20T04:08:11+00:00",
+      "last_verified": "2026-10-20T04:08:11+00:00",
+      "verified_urls": [
+        "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2447"
+      ],
+      "id": "010e47be8b98fed4",
+      "verification": "部分核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "原始网页未给出精确出版日；网页日期不作为论文出版日",
+      "topics": [
+        "sinicization",
+        "theory",
+        "capital"
+      ],
+      "topic_basis": "题名、公开摘要摘录和原文关键词的字面匹配，仅供检索"
+    }
+  ]
+}

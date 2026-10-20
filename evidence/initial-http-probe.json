@@ -1,0 +1,78 @@
+[
+  {
+    "id": "mlky",
+    "url": "https://mlky.cbpt.cnki.net/portal",
+    "checked_at": "2026-10-20T03:53:09.528052+00:00",
+    "transport": "Python urllib HTTPS; certificate validation enabled",
+    "robots": {
+      "status": 200,
+      "final_url": "https://mlky.cbpt.cnki.net/robots.txt",
+      "bytes": 96,
+      "sha256": "ccb90812d8ece22365ce83e876a9a91610403c47408cec2bcd617f24a3807948",
+      "file": "evidence/mlky-robots.html",
+      "content_type": "text/html; charset=utf-8"
+    },
+    "home": {
+      "status": 200,
+      "final_url": "https://mlky.cbpt.cnki.net/portal",
+      "bytes": 91811,
+      "sha256": "18a7047c0f19c4c826ddba39bafcf9aa90c7833495e1f3624b9322845bfd30e0",
+      "file": "evidence/mlky-home.html",
+      "content_type": "text/html;charset=UTF-8"
+    }
+  },
+  {
+    "id": "socialism",
+    "url": "https://socialismstudies.ccnu.edu.cn/",
+    "checked_at": "2026-10-20T03:53:09.529061+00:00",
+    "transport": "Python urllib HTTPS; certificate validation enabled",
+    "robots": {
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    },
+    "home": {
+      "status": 200,
+      "final_url": "https://socialismstudies.ccnu.edu.cn/",
+      "bytes": 44713,
+      "sha256": "751259cddb4bfa9ba37c10af88c8e50c93ff1081f0899cd3c51777699d2b212a",
+      "file": "evidence/socialism-home.html",
+      "content_type": "text/html; charset=gb2312"
+    }
+  },
+  {
+    "id": "snnu",
+    "url": "https://marxism.snnu.edu.cn/",
+    "checked_at": "2026-10-20T03:53:09.529061+00:00",
+    "transport": "Python urllib HTTPS; certificate validation enabled",
+    "robots": {
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    },
+    "home": {
+      "status": 200,
+      "final_url": "https://marxism.snnu.edu.cn/",
+      "bytes": 68742,
+      "sha256": "4a209f3c83ed26c49dd61f62bbd448be112c7733cacae7235dfcdad9de128a37",
+      "file": "evidence/snnu-home.html",
+      "content_type": "text/html"
+    }
+  },
+  {
+    "id": "ccnu",
+    "url": "https://marx.ccnu.edu.cn/",
+    "checked_at": "2026-10-20T03:53:09.530051+00:00",
+    "transport": "Python urllib HTTPS; certificate validation enabled",
+    "robots": {
+      "error": "HTTP Error 404: Not Found",
+      "status": 404
+    },
+    "home": {
+      "status": 200,
+      "final_url": "https://marx.ccnu.edu.cn/",
+      "bytes": 68852,
+      "sha256": "b1d19c8ac284a7f44fde51561b2f8a27ad778910fa2d14e7214f5c32f137c44b",
+      "file": "evidence/ccnu-home.html",
+      "content_type": "text/html"
+    }
+  }
+]

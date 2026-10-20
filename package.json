@@ -1,0 +1,1 @@
+{"name":"malilun-hot","version":"1.0.0","private":true,"type":"module","scripts":{"build":"python scripts/build.py","test":"python -m unittest discover -s tests -v","preview":"python -m http.server 4173 --directory dist"},"description":"零AI API依赖的马克思主义理论学术情报静态站"}

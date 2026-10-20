@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2026-10-20",
+    "timezone": "UTC",
+    "generated_at": "2026-10-20T04:08:11+00:00",
+    "title": "马理论日报",
+    "initial_import": true,
+    "item_ids": [
+      "1122cd49a635260b",
+      "957f67e78e4f63b3",
+      "701e43acafb34e04",
+      "baa5169c71969400",
+      "65b8de6e681b25e7",
+      "63d352dcf14d1786",
+      "dc28a40a7a958edb",
+      "cca37ae3dd4abc42",
+      "bcc32833465f1626",
+      "7c573a3a1b2c3513",
+      "6b7c87b9d2785eef",
+      "5ef71dab331fdb6f",
+      "5609b6d0e27cb3af",
+      "519551b33901f6e7",
+      "3dc276a9cf05e932",
+      "068a6bb0b159f261",
+      "5959cd3a8d8e3ea7",
+      "d4555b5fc79ef877",
+      "66c632b613603145",
+      "3225fca071210b14",
+      "4d94bf932cf405bd",
+      "04fe7335f8c888b8",
+      "241b55790bf97e47",
+      "46cd9740f69d7fe4",
+      "d61027675a8fd1e0",
+      "e71e263f36a9a78d",
+      "6ec35113e3906fbd",
+      "3635f854328be91c",
+      "1c2bb515aaf4c091",
+      "373832dcba0288b1",
+      "a63671b5fd6233b8",
+      "20ae09ec52025493",
+      "3f4a632898d79212",
+      "3eccc1b2c3c9eca4",
+      "e5be5338ca2040dc",
+      "a4c2812159660415",
+      "109abb737e2d6ff1",
+      "3ffe154425d464fb",
+      "c4f53f803d0fdb8b",
+      "4aad0c7617683d2b",
+      "010e47be8b98fed4",
+      "3dd9ba00f649b85b",
+      "fc9891229e68892c",
+      "cd58099440b88d02",
+      "57d52ba9b6d107ac",
+      "e62265595189d07e",
+      "ee428dbd142fe3c2",
+      "3547de780a2a9d9a",
+      "23c519679e317b41",
+      "eeb59a54cc6d16c4",
+      "a112698a512a8b17",
+      "d6d46b06fd5becb4",
+      "1d4df6cb10d13c99",
+      "e4b802f55bfff725",
+      "70f7607a0510065b",
+      "331dd9c9b8b19bba",
+      "784a86375ed55d07"
+    ],
+    "note": "按本站首次发现时间编排，含历史文献首次收录；不将其称为当日发表成果。无新资料时明确显示空刊；全部来源失败时不生成新一期。",
+    "new_publications": [],
+    "ranking_90": [
+      {
+        "topic_id": "party",
+        "name": "党史党建与自我革命",
+        "work_count": 3,
+        "source_count": 1,
+        "sources": [
+          "马克思主义理论学科研究"
+        ],
+        "latest": "2026-08-15",
+        "item_ids": [
+          "bcc32833465f1626",
+          "5ef71dab331fdb6f",
+          "3dc276a9cf05e932"
+        ],
+        "sparse": true
+      },
+      {
+        "topic_id": "capital",
+        "name": "资本主义批判与数字劳动",
+        "work_count": 3,
+        "source_count": 1,
+        "sources": [
+          "马克思主义理论学科研究"
+        ],
+        "latest": "2026-08-15",
+        "item_ids": [
+          "dc28a40a7a958edb",
+          "6b7c87b9d2785eef",
+          "068a6bb0b159f261"
+        ],
+        "sparse": true
+      },
+      {
+        "topic_id": "education",
+        "name": "思想政治教育",
+        "work_count": 2,
+        "source_count": 1,
+        "sources": [
+          "马克思主义理论学科研究"
+        ],
+        "latest": "2026-08-15",
+        "item_ids": [
+          "bcc32833465f1626",
+          "519551b33901f6e7"
+        ],
+        "sparse": true
+      },
+      {
+        "topic_id": "theory",
+        "name": "党的创新理论",
+        "work_count": 2,
+        "source_count": 1,
+        "sources": [
+          "马克思主义理论学科研究"
+        ],
+        "latest": "2026-08-15",
+        "item_ids": [
+          "7c573a3a1b2c3513",
+          "5ef71dab331fdb6f"
+        ],
+        "sparse": true
+      }
+    ]
+  }
+]
