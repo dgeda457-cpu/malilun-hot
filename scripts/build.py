@@ -10,10 +10,10 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from collect import read_json,write_json,sort_key
 
-RULE='成果数降序 → 独立出版机构/期刊数降序 → 最近出版日降序；仅计精确出版日可核实、去重后的论文/著作。会议与转载次数不计分。'
+RULE='仅计正式出版日可核实、去重后的论文/著作；未知出版日、冲突记录、活动与重复转载不进入7/30/90日窗口。样本未达门槛时按预设议题顺序展示，不作学界热度排名。'
 def in_window(item,days,today):
     value=item.get('publication_date')
-    if not value or item.get('kind') not in ('paper','book') or item.get('verification')=='存在冲突':return False
+    if not value or item.get('kind') not in ('paper','book') or item.get('verification')=='存在冲突'or item.get('is_reprint'):return False
     try:delta=(today-date.fromisoformat(value)).days
     except ValueError:return False
     return 0<=delta<days
@@ -22,12 +22,22 @@ def rankings(items,topics,today):
     for days in (7,30,90):
         rows=[]
         for topic in topics:
-            relevant=[x for x in items if topic['id'] in x.get('topics',[]) and in_window(x,days,today)]
+            relevant=list({x.get('work_id',x['id']):x for x in items if topic['id'] in x.get('topics',[]) and in_window(x,days,today)}.values())
             if not relevant:continue
             sources=sorted({x.get('journal') or x['source_name'] for x in relevant})
             rows.append({'topic_id':topic['id'],'name':topic['name'],'work_count':len(relevant),'source_count':len(sources),'sources':sources,'latest':max(x['publication_date'] for x in relevant),'item_ids':[x['id'] for x in relevant],'sparse':len(relevant)<3 or len(sources)<2})
         rows.sort(key=lambda x:(x['work_count'],x['source_count'],x['latest']),reverse=True)
         out[str(days)]=rows
+    return out
+
+def ranking_context(items,coverage,today):
+    out={}
+    for days in (7,30,90):
+        rows=list({x.get('work_id',x['id']):x for x in items if in_window(x,days,today)}.values())
+        journals=Counter(x.get('journal')or x.get('source_name')for x in rows)
+        # These are project governance thresholds, not a claim of discipline representation.
+        allowed=len(rows)>=200 and len(journals)>=10 and max(journals.values(),default=0)/max(1,len(rows))<=.25 and bool(coverage)and all(c['status']=='verified'and c['missing']==0 for c in coverage)
+        out[str(days)]={'mode':'monitored_statistics'if allowed else'collected_topics','window_days':days,'from':(today-timedelta(days=days-1)).isoformat(),'to':today.isoformat(),'works':len(rows),'journals':len(journals),'max_journal_share':max(journals.values(),default=0)/max(1,len(rows)),'reason':'限本站固定监测集合，不代表全学科'if allowed else'文献数量、信源分布或有效期次仍有限，仅列近期收录研究议题','threshold_note':'项目内门槛建议：200篇、10刊、单刊不超过25%、目标期次核验完整；达到也不代表学科全量。'}
     return out
 
 def discover(items,topics):
@@ -49,14 +59,19 @@ def rss(items,title,base):
 
 def build():
     catalog=read_json(ROOT/'public/data/catalog.json',{'items':[],'sources':[],'runs':[],'last_success':None,'last_attempt':None})
-    items=catalog['items'];topics=read_json(ROOT/'config/topics.json',[])
+    items=sorted(catalog['items'],key=sort_key,reverse=True);catalog['items']=items;topics=read_json(ROOT/'config/topics.json',[])
     # Windows may lack an IANA tz database; UTC is explicit, never silently use host time.
     latest=catalog.get('last_attempt') or datetime.now(timezone.utc).isoformat()
     today=datetime.fromisoformat(latest).date()
     for t in topics:
         t['count']=sum(t['id'] in x.get('topics',[]) for x in items)
+        t['paper_count']=sum(x['kind']=='paper'and t['id']in x.get('topics',[])for x in items)
+        t['event_count']=sum(x['kind']in ('event','call')and t['id']in x.get('topics',[])for x in items)
+        t['admission_count']=sum(x['kind']=='admission'and t['id']in x.get('topics',[])for x in items)
         t['research_questions']=[{'title':x['title'],'item_id':x['id']} for x in items if t['id'] in x.get('topics',[]) and any(k in x['title'] for k in ['问题','何以','如何','何谓','何为'])][:5]
-    payload={**catalog,'topics':topics,'rankings':rankings(items,topics,today),'ranking_rule':RULE,'ranking_as_of':today.isoformat(),'ranking_timezone':'UTC','discovered_keywords':discover(items,topics)}
+    coverage=catalog.get('issue_coverage',[])
+    summary={'expected':sum(c['expected']for c in coverage),'collected':sum(c['collected']for c in coverage),'missing':sum(c['missing']for c in coverage),'effective_issues':sum(c['status']=='verified'and c['missing']==0 for c in coverage),'target_issues':len(coverage),'target_journals':len({c['journal']for c in coverage}),'publisher_journals':len({x['journal']for x in items if x.get('source_kind')in ['publisher','publisher_toc']and x.get('journal')}),'scope':'141篇优先样本，仅5刊8期；不是全学科覆盖率。'}
+    payload={**catalog,'data_revision':3,'coverage_summary':summary,'topics':topics,'rankings':rankings(items,topics,today),'ranking_context':ranking_context(items,coverage,today),'ranking_rule':RULE,'ranking_as_of':today.isoformat(),'ranking_timezone':'UTC','discovered_keywords':discover(items,topics)}
     dist=ROOT/'dist';dist.mkdir(exist_ok=True)
     # Copy only known public files; evidence, configuration and credentials are never published.
     for name in ('index.html','styles.css','app.js','favicon.svg','robots.txt','_headers'):

@@ -1,1 +1,63 @@
-{"exclude_urls":[],"overrides":{},"note":"人工纠错：键为原始URL；改正字段须同时填写correction_evidence（官方证据URL），禁止无证据填写出版日、作者或截止日。"}
+{
+  "exclude_urls": [],
+  "overrides": {
+    "https://marxism.snnu.edu.cn/info/1034/15880.htm": {
+      "authors": [
+        "殷一博"
+      ],
+      "correction_evidence": "https://marxism.snnu.edu.cn/info/1034/15880.htm",
+      "correction_note": "原文为殷一博副教授；职称不属于姓名。"
+    },
+    "https://marxism.snnu.edu.cn/info/1034/16720.htm": {
+      "authors": [
+        "赵士发"
+      ],
+      "journal": "理论探索",
+      "issue_year": 2026,
+      "issue_number": 2,
+      "publication_date": null,
+      "reprints": [
+        {
+          "journal": "新华文摘",
+          "issue_year": 2026,
+          "issue_number": 15,
+          "reprint_date": null,
+          "reported_at": "2026-08-06",
+          "source_url": "https://marxism.snnu.edu.cn/info/1034/16720.htm"
+        }
+      ],
+      "correction_evidence": "https://marxism.snnu.edu.cn/info/1034/16720.htm",
+      "correction_note": "原文明确原载理论探索2026年第2期，新华文摘2026年第15期为转载；不推断精确转载日。"
+    },
+    "https://marxism.snnu.edu.cn/info/1034/15820.htm": {
+      "authors": [
+        "刘力波"
+      ],
+      "correction_evidence": "https://marxism.snnu.edu.cn/info/1034/15820.htm",
+      "correction_note": "根据本轮实际读取的学院原文首段，补齐原作者；不猜测未给出的日期。"
+    },
+    "https://marxism.snnu.edu.cn/info/1034/15810.htm": {
+      "authors": [
+        "李忠军",
+        "黄格"
+      ],
+      "correction_evidence": "https://marxism.snnu.edu.cn/info/1034/15810.htm",
+      "correction_note": "根据本轮实际读取的学院原文首段，补齐原作者；不猜测未给出的日期。"
+    },
+    "https://gxsj.cbpt.cnki.net/portal/journal/portal/client/paper/799e4334e2498242c7636a9f869dcb27": {
+      "doi": "10.16580/j.sxlljydk.2026.03.008",
+      "publication_date": "2026-03-20",
+      "pages": "8",
+      "keywords": [
+        "马克思主义理论学科",
+        "学科建设",
+        "思政课",
+        "高质量发展",
+        "自主知识体系"
+      ],
+      "correction_evidence": "https://gxsj.cbpt.cnki.net/portal/journal/portal/client/paper/799e4334e2498242c7636a9f869dcb27",
+      "correction_note": "本轮实际读取出版方明确字段，保留DOI、正式出版日与页码；不从期次推断日期。"
+    }
+  },
+  "note": "人工纠错：键为原始URL；改正字段须同时填写correction_evidence（官方证据URL），禁止无证据填写出版日、作者或截止日。"
+}

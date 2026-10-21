@@ -36,7 +36,10 @@ jobs:
       - name: 生成关注榜、日报、公开数据和RSS
         run: python scripts/build.py
       - name: 校验正式数据
-        run: python scripts/validate.py
+        run: |
+          python scripts/validate.py
+          node --check public/app.js
+          node tests/test_views.mjs
       - name: 保存真实数据与运行日志
         run: |
           git config user.name 'malilun-hot updater'

@@ -9,6 +9,7 @@ from datetime import datetime, timezone, timedelta, date
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urlunsplit, parse_qsl, urlencode
 from bs4 import BeautifulSoup
+from bibliography import normalize,keywords,authors,match_work,work_key,collect_issues,issue_coverage
 
 ROOT=Path(__file__).resolve().parents[1]
 UA='MalilunHOT/1.0 (public academic metadata index; daily; no full text)'
@@ -34,22 +35,24 @@ def title_key(title):
     title=re.sub(r'^《[^》]+》[转载]*\s*[:：]\s*','',title)
     return re.sub(r'[^\w\u4e00-\u9fff]','',unicodedata.normalize('NFKC',title)).lower()
 def sort_key(item):
-    return (item.get('publication_date') or item.get('web_date') or '',item.get('issue_year') or 0,item.get('issue_number') or 0,item['id'])
+    value=(item.get('publication_date')or str(item.get('issue_year')or''))if item.get('kind')in ('paper','book')else(item.get('web_date')or'')
+    return (value,item.get('issue_year') or 0,item.get('issue_number') or 0,item['id'])
 
 class Fetcher:
     def __init__(self,evidence=True):
-        self.last={};self.robots={};self.verified_at={};self.events=[];self.cache=ROOT/'.cache';self.cache.mkdir(exist_ok=True);self.evidence=evidence
-    def get(self,url,cache_hours=0,robots=False):
+        self.last={};self.robots={};self.verified_at={};self.events=[];self.blocked_hosts=set();self.cache=ROOT/'.cache';self.cache.mkdir(exist_ok=True);self.evidence=evidence
+    def get(self,url,cache_hours=0,robots=False,binary=False):
         p=urlsplit(url)
         if p.scheme!='https': raise ValueError('仅采集HTTPS公开网页')
         host=p.netloc
+        if not robots and host in self.blocked_hosts:raise PermissionError('本轮来源已出现访问限制，停止该主机后续请求')
         if not robots:
             policy=self.policy(url)
             if not policy['allowed']:raise PermissionError('robots禁止或无法确认可访问性: '+policy['status'])
             rp=policy.get('_parser')
             if rp and not rp.can_fetch(UA,url): raise PermissionError('robots禁止此路径')
         key=hashlib.sha256(url.encode()).hexdigest(); f=self.cache/(key+'.json')
-        if cache_hours and f.exists() and time.time()-f.stat().st_mtime<cache_hours*3600:
+        if not binary and cache_hours and f.exists() and time.time()-f.stat().st_mtime<cache_hours*3600:
             cached=read_json(f,{});self.verified_at[url]=cached['fetched_at']
             return cached['html']
         # Each host is strictly sequential, with at least 1.2 seconds between requests.
@@ -61,8 +64,9 @@ class Fetcher:
             req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'text/html,text/plain'})
             with urllib.request.urlopen(req,timeout=18) as r:
                 if urlsplit(r.url).netloc!=host: raise ValueError('跨域跳转需人工核查后配置')
-                raw=r.read(2_000_001)
-                if len(raw)>2_000_000:raise ValueError('页面超出2MB限制')
+                raw=r.read(3_000_001)
+                if len(raw)>3_000_000:raise ValueError('页面超出3MB限制')
+                if r.headers.get('Content-Encoding')=='gzip':raw=__import__('gzip').decompress(raw)
                 enc=r.headers.get_content_charset()
                 if not enc:
                     m=re.search(br'charset=["\s]*([\w-]+)',raw[:5000],re.I);enc=m.group(1).decode() if m else 'utf-8'
@@ -70,9 +74,11 @@ class Fetcher:
                 html=raw.decode(enc,errors='replace')
                 event.update(status=r.status,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),final_url=r.url)
             if not robots:
-                self.verified_at[url]=now();write_json(f,{'html':html,'url':url,'fetched_at':self.verified_at[url]})
-            return html
+                self.verified_at[url]=now()
+                if not binary:write_json(f,{'html':html,'url':url,'fetched_at':self.verified_at[url]})
+            return raw if binary else html
         except Exception as e:
+            if getattr(e,'code',None)in (401,403,429):self.blocked_hosts.add(host)
             event.update(status=getattr(e,'code',None),error=str(e)); raise
         finally:self.events.append(event)
     def policy(self,url):
@@ -117,8 +123,10 @@ def parse_cnki(html,url,source):
     pub=re.search(r'出版时间[:：]\s*('+DATE_RE+r')',text)
     web=re.search(r'发布时间[:：]\s*('+DATE_RE+r')',text)
     abs_m=re.search(r'摘要[:：]\s*(.+?)\s*关键词[:：]',text)
-    kw_m=re.search(r'关键词[:：]\s*(.+?)\s*Abstract',text)
-    return {'title':title,'authors':authors,'journal':journal,'kind':'paper','publication_date':exact_date(pub.group(1)) if pub else None,'web_date':exact_date(web.group(1)) if web else None,'issue_year':year,'issue_number':issue,'abstract_excerpt':abs_m.group(1)[:120]+'…' if abs_m else None,'keywords':[clean(x) for x in re.split('[;；]',kw_m.group(1)) if clean(x)] if kw_m else [],'evidence_level':'abstract' if abs_m else 'metadata'}
+    kw_m=re.search(r'关键词[:：]\s*(.{1,500}?)\s*(?:Abstract|KeyWords|中图分类号|引用信息|参考文献|出版信息)\s*[:：]?',text,re.I)
+    doi=re.search(r'DOI\s*[:：]\s*(10\.\d{4,9}/[A-Za-z0-9._()/\-]+)',text,re.I)
+    pg=re.search(r'\(\d{1,2}\)\s*[:：]\s*(\d+(?:-\d+)?)',text)
+    return {'title':title,'authors':authors,'journal':journal,'kind':'paper','publication_date':exact_date(pub.group(1)) if pub else None,'web_date':exact_date(web.group(1)) if web else None,'issue_year':year,'issue_number':issue,'abstract_excerpt':None,'keywords':keywords(kw_m.group(1)) if kw_m else [],'doi':doi.group(1).rstrip('.')if doi else None,'pages':pg.group(1)if pg else None,'evidence_level':'metadata','keyword_note':'仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。'}
 
 def parse_vsb(html,url,source):
     soup=BeautifulSoup(html,'html.parser');meta=soup.select_one('meta[name="pageTitle"]')
@@ -137,13 +145,19 @@ def parse_vsb(html,url,source):
         journal,title=mt.groups()
         ym=re.search(r'《'+re.escape(journal)+r'》\s*(20\d{2})年\s*第?(\d{1,2})期',body)
         if ym:year,issue=map(int,ym.groups())
-        am=re.search(r'我院(.{2,50}?)在《',body)
+        am=re.search(r'我院(.{2,50}?)(?:在《|发表(?:的)?论文)',body)
         if am:
             raw=am.group(1)
-            for suffix in ['教授','副教授','讲师','博士研究生','博士','老师','硕士研究生','研究员']:raw=raw.replace(suffix,'')
+            for suffix in sorted(['教授','副教授','讲师','博士研究生','博士','老师','硕士研究生','研究员'],key=len,reverse=True):raw=raw.replace(suffix,'')
             if not any(w in raw for w in ['论文','发表','教师','团队','近日']):authors=[x.strip() for x in re.split('[和、,]',raw) if 1<len(x.strip())<8]
         ab=re.search(r'摘要[:：]\s*(.+)',body)
-        if ab:abstract=ab.group(1)[:120]+'…'
+        # Index factual metadata only; short length is not a reuse licence.
+        abstract=None
+        original=re.search(r'(?:该文)?原载于《(.+?)》\s*(20\d{2})年\s*第?(\d{1,2})期',body)
+        reprints=[]
+        if original:
+            reprints=[{'journal':journal,'issue_year':year,'issue_number':issue,'reprint_date':None,'reported_at':exact_date(m.group(1))if m else None,'source_url':url}]
+            journal,year,issue=original.group(1),int(original.group(2)),int(original.group(3))
     event_date=None
     # No inference from report date or relative dates for events/deadlines.
     em=re.search(r'(?:活动时间|举办时间|报告时间|讲座时间)\s*[:：]\s*('+DATE_RE+r')',body)
@@ -151,7 +165,7 @@ def parse_vsb(html,url,source):
     deadline=None;deadline_evidence=None
     dm=re.search(r'(?:报名截止(?:时间)?|截稿(?:日期|时间)?|投稿截止(?:时间)?)\s*[:：为]?\s*('+DATE_RE+r')',body)
     if dm:deadline=exact_date(dm.group(1));deadline_evidence=dm.group(0)
-    return {'title':title,'authors':authors,'journal':journal,'kind':kind,'publication_date':None,'web_date':exact_date(m.group(1)) if m else None,'issue_year':year,'issue_number':issue,'abstract_excerpt':abstract,'evidence_level':'abstract' if abstract else 'metadata','keywords':[],'event_date':event_date,'deadline':deadline,'deadline_evidence':deadline_evidence,'enrollment_year':int(re.search(r'20\d{2}',title).group()) if kind=='admission' and re.search(r'20\d{2}',title) else None,'scope_0305':'学院公告；具体招生学科须以原文为准' if kind=='admission' else None}
+    return {'title':title,'authors':authors,'journal':journal,'kind':kind,'publication_date':None,'web_date':exact_date(m.group(1)) if m else None,'issue_year':year,'issue_number':issue,'abstract_excerpt':abstract,'evidence_level':'metadata','keywords':[],'source_kind':'academy_report','reprints':reprints if paper else [],'event_date':event_date,'deadline':deadline,'deadline_evidence':deadline_evidence,'enrollment_year':int(re.search(r'20\d{2}',title).group()) if kind=='admission' and re.search(r'20\d{2}',title) else None,'scope_0305':'学院公告；具体招生学科须以原文为准' if kind=='admission' else None}
 
 def parse_socialism(html,url,source):
     soup=BeautifulSoup(html,'html.parser');text=clean(soup.get_text(' ',strip=True))
@@ -165,10 +179,13 @@ def parse_socialism(html,url,source):
     author=re.search(r'作者[:：]\s*(.+?)\s*【',about)
     body=soup.select_one('#read_tpc');body=clean(body.get_text(' ',strip=True)) if body else ''
     ab=re.search(r'【摘要】\s*(.+?)\s*【关键词】',body)
-    kw=re.search(r'【关键词】\s*(.+?)(?:\s+20\d{2}年|\s+一[、,])',body)
-    return {'title':issue.group(3).strip(),'authors':[clean(x) for x in re.split('[、,;；]|\\s+',author.group(1)) if clean(x)] if author else [],'journal':source['name'],'kind':'paper','publication_date':None,'web_date':exact_date(about),'issue_year':int(issue.group(1)),'issue_number':int(issue.group(2)),'abstract_excerpt':ab.group(1)[:120]+'…' if ab else None,'evidence_level':'abstract' if ab else 'metadata','keywords':[clean(x) for x in re.split('[;；]',kw.group(1)) if clean(x)] if kw else []}
+    # Retain paragraph boundaries; flattened full text can swallow the article body.
+    body_node=soup.select_one('#read_tpc');paragraphs=body_node.get_text('\n',strip=True)if body_node else''
+    kw=re.search(r'【关键词】\s*([^\n]{1,300})(?:\n|$)',paragraphs)
+    return {'title':issue.group(3).strip(),'authors':authors(author.group(1)) if author else [],'journal':source['name'],'kind':'paper','publication_date':None,'web_date':exact_date(about),'issue_year':int(issue.group(1)),'issue_number':int(issue.group(2)),'abstract_excerpt':None,'evidence_level':'metadata','keywords':keywords(kw.group(1))if kw else []}
 
 def enrich(item,url,source,stamp):
+    item=normalize(item)
     item.update(url=canonical(url),source_id=source['id'],source_name=source['name'],first_seen=stamp,last_verified=stamp,verified_urls=[canonical(url)])
     identity=item['kind']+':'+title_key(item['title'])
     if item['kind'] not in ('paper','book'):identity+=':'+str(item.get('event_date') or item.get('web_date') or url)
@@ -186,28 +203,33 @@ def enrich(item,url,source,stamp):
     return item
 
 def merge_items(previous,incoming):
-    by_id={x['id']:dict(x) for x in previous};url_map={u:x['id'] for x in previous for u in x.get('verified_urls',[x['url']])}
-    for item in incoming:
-        key=url_map.get(item['url'],item['id']);old=by_id.get(key)
-        # Recover earlier title-only activity merges when a second notice has its own date.
-        if old and item['kind'] not in ('paper','book') and item.get('web_date')!=old.get('web_date') and item['url']!=old['url']:
-            old['verified_urls']=[u for u in old.get('verified_urls',[old['url']]) if u!=item['url']]
-            key=item['id'];old=by_id.get(key)
-        if old:
-            # A title match is conservative when both records provide conflicting author names.
-            if old.get('authors') and item.get('authors') and not set(old['authors'])&set(item['authors']) and item['url'] not in old.get('verified_urls',[]):
-                item['id']=hashlib.sha256((item['id']+'|'+','.join(item['authors'])).encode()).hexdigest()[:16];by_id[item['id']]=item;continue
-            urls=list(dict.fromkeys(old.get('verified_urls',[old['url']])+item.get('verified_urls',[item['url']])))
-            choose=item if (bool(item.get('publication_date')),bool(item.get('authors')),item['evidence_level']=='abstract')>=(bool(old.get('publication_date')),bool(old.get('authors')),old['evidence_level']=='abstract') else old
-            merged={**choose,'id':key,'verified_urls':urls,'first_seen':min(old['first_seen'],item['first_seen']),'last_verified':max(old['last_verified'],item['last_verified'])}
-            merged['topics']=list(dict.fromkeys(old.get('topics',[])+item.get('topics',[])))
-            # Keep different claimed publication dates visible as a conflict and out of ranking.
-            if old.get('publication_date') and item.get('publication_date') and old['publication_date']!=item['publication_date']:
-                merged.update(verification='存在冲突',date_note='不同来源出版日期冲突，已排除排名',date_conflict=[old['publication_date'],item['publication_date']],publication_date=None)
-            by_id[key]=merged
-        else:by_id[key]=item
-        url_map[item['url']]=key
-    return sorted(by_id.values(),key=sort_key,reverse=True)
+    # URL/DOI or compatible title+journal+issue identity; never title alone across journals.
+    rows={x['id']:normalize(x) for x in previous}
+    for raw in incoming:
+        item=normalize(raw)
+        old=next((x for x in rows.values() if item['url'] in x.get('verified_urls',[x['url']])and title_key(x['title'])==title_key(item['title'])),None)
+        if old and item['kind']not in ('paper','book')and item.get('web_date')!=old.get('web_date')and item['url']!=old['url']:
+            old['verified_urls']=[u for u in old.get('verified_urls',[])if u!=item['url']];old=None
+        if old is None:old=next((x for x in rows.values()if match_work(x,item)),None)
+        if old is None:
+            key=item['id']
+            if key in rows:key=hashlib.sha256((work_key(item)+'|'+','.join(item.get('authors',[]))).encode()).hexdigest()[:16]
+            item['id']=key;rows[key]=item;continue
+        key=old['id'];merged=dict(old)
+        # Preserve known values when a TOC lacks a field. Prefer publisher descriptions over academy reports.
+        priority={'academy_report':0,'publisher_toc':1,'publisher':2}
+        incoming_preferred=priority.get(item.get('source_kind'),1)>=priority.get(old.get('source_kind'),1)
+        for k,v in item.items():
+            if k in ['id','first_seen','last_verified','verified_urls','observations','reprints','collected_at']:continue
+            if v is not None and v!=[] and v!=''and(incoming_preferred or not merged.get(k)):merged[k]=v
+        for k in ['verified_urls','observations','reprints']:
+            vals=old.get(k,[old['url']]if k=='verified_urls'else[])+item.get(k,[item['url']]if k=='verified_urls'else[])
+            merged[k]=list({json.dumps(v,sort_keys=True,ensure_ascii=False):v for v in vals}.values())
+        merged.update(id=key,first_seen=min(old['first_seen'],item['first_seen']),last_verified=max(old['last_verified'],item['last_verified']),collected_at=old.get('collected_at')or old['first_seen'])
+        if old.get('publication_date')and item.get('publication_date')and old['publication_date']!=item['publication_date']:
+            merged.update(verification='存在冲突',date_note='正式出版日期冲突，不计入按日时间窗',date_conflict=sorted(set([old['publication_date'],item['publication_date']])),publication_date=None)
+        rows[key]=normalize(merged)
+    return sorted(rows.values(),key=sort_key,reverse=True)
 
 def collect_source(source,fetcher,stamp,force=False):
     status={'id':source['id'],'name':source['name'],'home':source['home'],'rights':source['rights'],'checked_at':stamp,'errors':[],'http_successes':0,'items':0,'fields':[]}
@@ -215,12 +237,24 @@ def collect_source(source,fetcher,stamp,force=False):
     if not source.get('enabled',True):status['status']='disabled';return [],status
     policy=fetcher.policy(source['home']);status['robots']={k:v for k,v in policy.items() if not k.startswith('_')}
     if not policy['allowed']:status['status']='blocked';return [],status
-    for page in source['lists']:
+    queue=list(source['lists']);visited=set()
+    while queue and len(visited)<source.get('max_pages',4):
+        page=queue.pop(0)
+        if canonical(page)in visited:continue
+        visited.add(canonical(page))
         try:
             html=fetcher.get(page);status['http_successes']+=1
             links+=article_links(BeautifulSoup(html,'html.parser'),page,source['adapter'])
+            if source['adapter']=='cnki':
+                current=int(dict(parse_qsl(urlsplit(page).query)).get('pageNum','1'))
+                for a in BeautifulSoup(html,'html.parser').select('a[href]'):
+                    u=urljoin(page,a['href']);n=dict(parse_qsl(urlsplit(u).query)).get('pageNum','')
+                    if 'paperPage_list'in u and n.isdigit()and int(n)==current+1 and urlsplit(u).netloc==urlsplit(page).netloc and canonical(u)not in visited and u not in queue:queue.append(u)
         except Exception as e:status['errors'].append({'url':page,'error':str(e)})
+    status['list_pages']=len(visited);status['pagination_truncated']=bool(queue)
+    if queue:status['errors'].append({'error':'目录分页达到上限，尚未证明全期完整'})
     links=list(dict.fromkeys(links))
+    if len(links)>source.get('max_items',15):status['errors'].append({'error':'待处理链接超过本轮上限；未据此宣称完整收录'})
     # Exclude administrative posts before requesting detail pages.
     if source['adapter']=='vsb':links=[(u,t) for u,t in links if re.match(r'^《.+?》(?:转载)?[:：]',t) or any(w in t for w in ['博士','论坛','讲座','讲坛','大讲堂','征文','征稿','研讨','沙龙'])]
     parser={'cnki':parse_cnki,'socialism':parse_socialism,'vsb':parse_vsb}[source['adapter']]
@@ -245,6 +279,16 @@ def run(source_runner=collect_source):
     parser=argparse.ArgumentParser();parser.add_argument('--force',action='store_true');parser.add_argument('--only',default='');args=parser.parse_args()
     stamp=now();fetcher=Fetcher();store=ROOT/'public/data/catalog.json';old=read_json(store,{'items':[],'sources':[],'runs':[]})
     items=[];statuses=[];old_status={s['id']:s for s in old.get('sources',[])}
+    fix=read_json(ROOT/'config/corrections.json',{})
+    # Migrate known factual errors before matching the newly verified original work.
+    for x in old.get('items',[]):
+        correction=fix.get('overrides',{}).get(x['url'])
+        if correction and correction.get('correction_evidence'):x.update(correction)
+        if x['kind']=='paper':x['abstract_excerpt']=None;x['evidence_level']='metadata'
+    specs=read_json(ROOT/'config/issues.json',[])
+    reviewed,issue_states=collect_issues(specs,fetcher,stamp,old.get('issue_states',[]),args.force)
+    items.extend(reviewed)
+    for x in reviewed:print('题录核验: '+x['journal']+' '+x['title'])
     for source in read_json(ROOT/'config/sources.json',[]):
         if args.only and source['id'] not in args.only.split(','):
             if source['id'] in old_status:statuses.append(old_status[source['id']])
@@ -254,14 +298,23 @@ def run(source_runner=collect_source):
         if not status.get('last_success'):status['last_success']=old_status.get(source['id'],{}).get('last_success')
         items+=batch;statuses.append(status)
         print(f"{source['id']}: {status['status']}, {len(batch)} 条")
-    merged=merge_items(old.get('items',[]),items);fix=read_json(ROOT/'config/corrections.json',{})
+    merged=merge_items(old.get('items',[]),items)
     merged=[x for x in merged if not set(x.get('verified_urls',[x['url']]))&set(fix.get('exclude_urls',[]))]
     for item in merged:
         correction=fix.get('overrides',{}).get(item['url'])
         if correction and correction.get('correction_evidence'):item.update(correction)
+        item.update(normalize(item))
+        corpus=clean(' '.join([item['title'],' '.join(item.get('keywords',[]))]))
+        item['topics']=[t['id']for t in read_json(ROOT/'config/topics.json',[])if any(k in corpus for k in t['keywords'])]
+        item['topic_basis']='题名和明确原始关键词的字面匹配；不从摘要或正文推断观点'
+    # Register reviewed journals separately from live web collectors.
+    for journal in sorted({s['journal']for s in specs}):
+        if journal=='马克思主义理论学科研究':continue
+        js=[s for s in issue_states if s['journal']==journal];spec=next(s for s in specs if s['journal']==journal)
+        statuses.append({'id':__import__('bibliography').SOURCE_IDS[journal],'name':journal,'home':spec['toc_url'],'tier':spec['tier'],'status':'reviewed'if all(s['status']=='verified'for s in js)else'partial','items':sum(1 for x in merged if x.get('journal')==journal),'checked_at':max((s.get('checked_at')or''for s in js),default=None)or stamp,'errors':[{'error':e}for s in js for e in s['errors']],'update_mode':'目录图需逐期复核，新期不会自动目读'if spec['mode']=='reviewed_images'else'已核期次可重复校验；新期经核验后纳入','rights':'仅著录公开事实性题录并链接出版方；不复制摘要和正文。未据此宣称获得数据库批量授权。','fields':['authors','issue_year','issue_number','publication_date'],'last_success':max((s.get('checked_at')or''for s in js),default=None),'robots':{'status':'各目录请求已分别检查'}})
     success=bool(items);new_ids={i['id'] for i in merged}-{i['id'] for i in old.get('items',[])}
-    run_id=stamp.replace(':','-');run={'id':run_id,'at':stamp,'new_items':len(new_ids),'verified_items':len(items),'source_ok':sum(s['status']=='ok' for s in statuses),'source_partial':sum(s['status']=='partial' for s in statuses),'source_failed':sum(s['status'] in ['failed','blocked'] for s in statuses),'outcome':'success' if success else 'no_verified_content','environment':'GitHub Actions' if __import__('os').environ.get('GITHUB_ACTIONS') else 'local Windows/Python','cloud_verified':bool(__import__('os').environ.get('GITHUB_ACTIONS'))}
-    catalog={'schema_version':1,'last_attempt':stamp,'last_success':stamp if success else old.get('last_success'),'items':merged,'sources':statuses,'runs':(old.get('runs',[])+[run])[-90:],'coverage_note':'仅反映本站监测范围；资讯数量不代表学术价值。'}
+    run_id=stamp.replace(':','-');run={'id':run_id,'at':stamp,'new_items':len(new_ids),'verified_items':len(items),'reviewed_issue_records':len(reviewed),'fresh_issue_checks':sum(s.get('checked_at')==stamp for s in issue_states),'live_collector_records':len(items)-len(reviewed),'source_ok':sum(s['status']in ['ok','reviewed'] for s in statuses),'source_partial':sum(s['status']=='partial' for s in statuses),'source_failed':sum(s['status'] in ['failed','blocked'] for s in statuses),'outcome':'success' if success else 'no_verified_content','environment':'GitHub Actions' if __import__('os').environ.get('GITHUB_ACTIONS') else 'local Windows/Python','cloud_verified':bool(__import__('os').environ.get('GITHUB_ACTIONS'))}
+    catalog={'schema_version':1,'last_attempt':stamp,'last_success':stamp if success else old.get('last_success'),'items':merged,'sources':statuses,'runs':(old.get('runs',[])+[run])[-90:],'issue_states':issue_states,'issue_coverage':issue_coverage(specs,merged,issue_states),'journal_registry':read_json(ROOT/'config/journals.json',[]),'coverage_note':'以0305专业期刊优先；141篇优先样本仅限5刊8期，不代表学科全量。交叉学科不按个人主题扩张。'}
     write_json(store,catalog);write_json(ROOT/'evidence'/f'run-{run_id}.json',{'run':run,'sources':statuses,'http':fetcher.events,'sample':items[:4]})
     print(json.dumps({'total':len(merged),'new':len(new_ids),'last_success':catalog['last_success']},ensure_ascii=False))
     return catalog

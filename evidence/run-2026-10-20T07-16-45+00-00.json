@@ -1,0 +1,573 @@
+{
+  "run": {
+    "id": "2026-10-20T07-16-45+00-00",
+    "at": "2026-10-20T07:16:45+00:00",
+    "new_items": 0,
+    "verified_items": 141,
+    "reviewed_issue_records": 141,
+    "fresh_issue_checks": 0,
+    "live_collector_records": 0,
+    "source_ok": 5,
+    "source_partial": 3,
+    "source_failed": 0,
+    "outcome": "success",
+    "environment": "local Windows/Python",
+    "cloud_verified": false
+  },
+  "sources": [
+    {
+      "id": "mlky",
+      "name": "马克思主义理论学科研究",
+      "home": "https://mlky.cbpt.cnki.net/portal",
+      "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
+      "checked_at": "2026-10-20T06:37:35+00:00",
+      "errors": [],
+      "http_successes": 14,
+      "items": 12,
+      "fields": [
+        "authors",
+        "date_note",
+        "date_precision",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "journal_tier",
+        "keyword_note",
+        "keywords",
+        "kind",
+        "last_verified",
+        "pages",
+        "publication_date",
+        "source_id",
+        "source_kind",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date",
+        "work_id"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T06:37:43+00:00",
+        "url": "https://mlky.cbpt.cnki.net/robots.txt",
+        "allowed": true,
+        "status": "200_non_robots_response",
+        "note": "响应不是有效robots指令；不是转载许可。仅低频公开元数据索引。"
+      },
+      "list_pages": 2,
+      "pagination_truncated": false,
+      "status": "ok",
+      "last_success": "2026-10-20T06:37:35+00:00"
+    },
+    {
+      "id": "socialism",
+      "name": "社会主义研究",
+      "home": "https://socialismstudies.ccnu.edu.cn/",
+      "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
+      "checked_at": "2026-10-20T06:37:35+00:00",
+      "errors": [
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2464&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/bencandy.php?aid=2473&fid=69",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 16,
+      "items": 13,
+      "fields": [
+        "authors",
+        "date_note",
+        "date_precision",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "journal_tier",
+        "keywords",
+        "kind",
+        "last_verified",
+        "source_id",
+        "source_kind",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date",
+        "work_id"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T06:38:09+00:00",
+        "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "list_pages": 1,
+      "pagination_truncated": false,
+      "status": "partial",
+      "last_success": "2026-10-20T06:37:35+00:00"
+    },
+    {
+      "id": "snnu",
+      "name": "陕西师范大学马克思主义学院",
+      "home": "https://marxism.snnu.edu.cn/",
+      "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
+      "checked_at": "2026-10-20T06:37:35+00:00",
+      "errors": [
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6121.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/6084.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/info/1056/3181.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 19,
+      "fields": [
+        "authors",
+        "date_note",
+        "date_precision",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "issue_number",
+        "issue_year",
+        "journal",
+        "journal_tier",
+        "kind",
+        "last_verified",
+        "reprints",
+        "scope_0305",
+        "source_id",
+        "source_kind",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date",
+        "work_id"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T06:38:29+00:00",
+        "url": "https://marxism.snnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "list_pages": 3,
+      "pagination_truncated": false,
+      "status": "partial",
+      "last_success": "2026-10-20T06:37:35+00:00"
+    },
+    {
+      "id": "ccnu",
+      "name": "华中师范大学马克思主义学院",
+      "home": "https://marx.ccnu.edu.cn/",
+      "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
+      "checked_at": "2026-10-20T06:37:35+00:00",
+      "errors": [
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16793.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16794.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16795.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16796.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16799.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16801.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        }
+      ],
+      "http_successes": 25,
+      "items": 16,
+      "fields": [
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_kind",
+        "source_name",
+        "title",
+        "topic_basis",
+        "topics",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-10-20T06:38:59+00:00",
+        "url": "https://marx.ccnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "list_pages": 3,
+      "pagination_truncated": false,
+      "status": "partial",
+      "last_success": "2026-10-20T06:37:35+00:00"
+    },
+    {
+      "id": "history",
+      "name": "中共党史研究",
+      "home": "https://www.dswxyjy.org.cn/n1/2026/0923/c222844-40804294.html",
+      "tier": 2,
+      "status": "reviewed",
+      "items": 12,
+      "checked_at": "2026-10-20T06:37:35+00:00",
+      "errors": [],
+      "update_mode": "目录图需逐期复核，新期不会自动目读",
+      "rights": "仅著录公开事实性题录并链接出版方；不复制摘要和正文。未据此宣称获得数据库批量授权。",
+      "fields": [
+        "authors",
+        "issue_year",
+        "issue_number",
+        "publication_date"
+      ],
+      "last_success": "2026-10-20T06:37:35+00:00",
+      "robots": {
+        "status": "各目录请求已分别检查"
+      }
+    },
+    {
+      "id": "gxsj",
+      "name": "思想理论教育导刊",
+      "home": "https://gxsj.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi",
+      "tier": 2,
+      "status": "reviewed",
+      "items": 38,
+      "checked_at": "2026-10-20T06:46:47+00:00",
+      "errors": [],
+      "update_mode": "已核期次可重复校验；新期经核验后纳入",
+      "rights": "仅著录公开事实性题录并链接出版方；不复制摘要和正文。未据此宣称获得数据库批量授权。",
+      "fields": [
+        "authors",
+        "issue_year",
+        "issue_number",
+        "publication_date"
+      ],
+      "last_success": "2026-10-20T06:46:47+00:00",
+      "robots": {
+        "status": "各目录请求已分别检查"
+      }
+    },
+    {
+      "id": "reality",
+      "name": "马克思主义与现实",
+      "home": "https://www.dswxyjy.org.cn/n1/2026/0827/c428207-40787288.html",
+      "tier": 1,
+      "status": "reviewed",
+      "items": 70,
+      "checked_at": "2026-10-20T06:37:35+00:00",
+      "errors": [],
+      "update_mode": "目录图需逐期复核，新期不会自动目读",
+      "rights": "仅著录公开事实性题录并链接出版方；不复制摘要和正文。未据此宣称获得数据库批量授权。",
+      "fields": [
+        "authors",
+        "issue_year",
+        "issue_number",
+        "publication_date"
+      ],
+      "last_success": "2026-10-20T06:37:35+00:00",
+      "robots": {
+        "status": "各目录请求已分别检查"
+      }
+    },
+    {
+      "id": "mkszy",
+      "name": "马克思主义研究",
+      "home": "https://mkszyyj.ajcass.com/Magazine/GetIssueContentList?year=2026&issue=8",
+      "tier": 1,
+      "status": "reviewed",
+      "items": 12,
+      "checked_at": "2026-10-20T06:37:35+00:00",
+      "errors": [],
+      "update_mode": "已核期次可重复校验；新期经核验后纳入",
+      "rights": "仅著录公开事实性题录并链接出版方；不复制摘要和正文。未据此宣称获得数据库批量授权。",
+      "fields": [
+        "authors",
+        "issue_year",
+        "issue_number",
+        "publication_date"
+      ],
+      "last_success": "2026-10-20T06:37:35+00:00",
+      "robots": {
+        "status": "各目录请求已分别检查"
+      }
+    }
+  ],
+  "http": [],
+  "sample": [
+    {
+      "title": "新时代党的创新理论与马克思主义发展史学科的跃升",
+      "authors": [
+        "顾海良"
+      ],
+      "journal": "马克思主义与现实",
+      "issue_year": 2025,
+      "issue_number": 4,
+      "kind": "paper",
+      "url": "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html",
+      "publication_date": "2025-07-26",
+      "web_date": null,
+      "network_first_date": null,
+      "doi": null,
+      "keywords": [],
+      "abstract_excerpt": null,
+      "evidence_level": "metadata",
+      "source_kind": "publisher_toc",
+      "source_id": "reality",
+      "source_name": "马克思主义与现实",
+      "pages": null,
+      "page_start": 1,
+      "first_seen": "2026-10-20T07:16:45+00:00",
+      "last_verified": "2026-10-20T06:37:35+00:00",
+      "collected_at": "2026-10-20T07:16:45+00:00",
+      "verified_urls": [
+        "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html"
+      ],
+      "observations": [
+        {
+          "url": "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html",
+          "role": "publisher_toc",
+          "checked_at": "2026-10-20T06:37:35+00:00",
+          "method": "目录图目读转录及原图SHA复核",
+          "evidence": [
+            {
+              "url": "https://www.dswxyjy.org.cn/NMediaFile/2025/0809/MAIN1754713986840RFCU9L7OU1.jpg",
+              "sha256": "faeac4ca4b116cf392ecd13dfba6cf9cb903514673a09cdaec6d15c98906f22e",
+              "checked_at": "2026-10-20T06:37:35+00:00"
+            },
+            {
+              "url": "https://www.dswxyjy.org.cn/NMediaFile/2025/0809/MAIN1754713971816FUOWZE7E6X.jpg",
+              "sha256": "844f2007fd04fb732ccd9e39fc5aa8891aa2f5877637fddef4dc9d0c07034477",
+              "checked_at": "2026-10-20T06:37:35+00:00"
+            }
+          ]
+        }
+      ],
+      "verification": "题录已核实",
+      "verification_note": "已核对正式期次目录的题名、作者、年期；未读取论文全文。字段缺失留空。",
+      "date_note": "目录明确标出的出版日；不使用网页日或采集日补填",
+      "reprints": [],
+      "journal_tier": 1,
+      "work_id": "37d231d3901ca773",
+      "date_precision": "day",
+      "id": "3799c68fac35c911"
+    },
+    {
+      "title": "中国自主马克思主义基本原理知识体系建构的历史与现实",
+      "authors": [
+        "郝立新"
+      ],
+      "journal": "马克思主义与现实",
+      "issue_year": 2025,
+      "issue_number": 4,
+      "kind": "paper",
+      "url": "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html",
+      "publication_date": "2025-07-26",
+      "web_date": null,
+      "network_first_date": null,
+      "doi": null,
+      "keywords": [],
+      "abstract_excerpt": null,
+      "evidence_level": "metadata",
+      "source_kind": "publisher_toc",
+      "source_id": "reality",
+      "source_name": "马克思主义与现实",
+      "pages": null,
+      "page_start": 11,
+      "first_seen": "2026-10-20T07:16:45+00:00",
+      "last_verified": "2026-10-20T06:37:35+00:00",
+      "collected_at": "2026-10-20T07:16:45+00:00",
+      "verified_urls": [
+        "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html"
+      ],
+      "observations": [
+        {
+          "url": "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html",
+          "role": "publisher_toc",
+          "checked_at": "2026-10-20T06:37:35+00:00",
+          "method": "目录图目读转录及原图SHA复核",
+          "evidence": [
+            {
+              "url": "https://www.dswxyjy.org.cn/NMediaFile/2025/0809/MAIN1754713986840RFCU9L7OU1.jpg",
+              "sha256": "faeac4ca4b116cf392ecd13dfba6cf9cb903514673a09cdaec6d15c98906f22e",
+              "checked_at": "2026-10-20T06:37:35+00:00"
+            },
+            {
+              "url": "https://www.dswxyjy.org.cn/NMediaFile/2025/0809/MAIN1754713971816FUOWZE7E6X.jpg",
+              "sha256": "844f2007fd04fb732ccd9e39fc5aa8891aa2f5877637fddef4dc9d0c07034477",
+              "checked_at": "2026-10-20T06:37:35+00:00"
+            }
+          ]
+        }
+      ],
+      "verification": "题录已核实",
+      "verification_note": "已核对正式期次目录的题名、作者、年期；未读取论文全文。字段缺失留空。",
+      "date_note": "目录明确标出的出版日；不使用网页日或采集日补填",
+      "reprints": [],
+      "journal_tier": 1,
+      "work_id": "9b1aba016dd5d1a8",
+      "date_precision": "day",
+      "id": "0e3ffdfbd0b34cc3"
+    },
+    {
+      "title": "回顾与展望：思想政治教育学科20年",
+      "authors": [
+        "骆郁廷"
+      ],
+      "journal": "马克思主义与现实",
+      "issue_year": 2025,
+      "issue_number": 4,
+      "kind": "paper",
+      "url": "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html",
+      "publication_date": "2025-07-26",
+      "web_date": null,
+      "network_first_date": null,
+      "doi": null,
+      "keywords": [],
+      "abstract_excerpt": null,
+      "evidence_level": "metadata",
+      "source_kind": "publisher_toc",
+      "source_id": "reality",
+      "source_name": "马克思主义与现实",
+      "pages": null,
+      "page_start": 20,
+      "first_seen": "2026-10-20T07:16:45+00:00",
+      "last_verified": "2026-10-20T06:37:35+00:00",
+      "collected_at": "2026-10-20T07:16:45+00:00",
+      "verified_urls": [
+        "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html"
+      ],
+      "observations": [
+        {
+          "url": "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html",
+          "role": "publisher_toc",
+          "checked_at": "2026-10-20T06:37:35+00:00",
+          "method": "目录图目读转录及原图SHA复核",
+          "evidence": [
+            {
+              "url": "https://www.dswxyjy.org.cn/NMediaFile/2025/0809/MAIN1754713986840RFCU9L7OU1.jpg",
+              "sha256": "faeac4ca4b116cf392ecd13dfba6cf9cb903514673a09cdaec6d15c98906f22e",
+              "checked_at": "2026-10-20T06:37:35+00:00"
+            },
+            {
+              "url": "https://www.dswxyjy.org.cn/NMediaFile/2025/0809/MAIN1754713971816FUOWZE7E6X.jpg",
+              "sha256": "844f2007fd04fb732ccd9e39fc5aa8891aa2f5877637fddef4dc9d0c07034477",
+              "checked_at": "2026-10-20T06:37:35+00:00"
+            }
+          ]
+        }
+      ],
+      "verification": "题录已核实",
+      "verification_note": "已核对正式期次目录的题名、作者、年期；未读取论文全文。字段缺失留空。",
+      "date_note": "目录明确标出的出版日；不使用网页日或采集日补填",
+      "reprints": [],
+      "journal_tier": 1,
+      "work_id": "d8297b23926b47b7",
+      "date_precision": "day",
+      "id": "ebbd29a62dbf0146"
+    },
+    {
+      "title": "国外马克思主义研究与中国马克思主义理论建设",
+      "authors": [
+        "王雨辰"
+      ],
+      "journal": "马克思主义与现实",
+      "issue_year": 2025,
+      "issue_number": 4,
+      "kind": "paper",
+      "url": "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html",
+      "publication_date": "2025-07-26",
+      "web_date": null,
+      "network_first_date": null,
+      "doi": null,
+      "keywords": [],
+      "abstract_excerpt": null,
+      "evidence_level": "metadata",
+      "source_kind": "publisher_toc",
+      "source_id": "reality",
+      "source_name": "马克思主义与现实",
+      "pages": null,
+      "page_start": 29,
+      "first_seen": "2026-10-20T07:16:45+00:00",
+      "last_verified": "2026-10-20T06:37:35+00:00",
+      "collected_at": "2026-10-20T07:16:45+00:00",
+      "verified_urls": [
+        "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html"
+      ],
+      "observations": [
+        {
+          "url": "https://www.dswxyjy.org.cn/n1/2025/0809/c428207-40539265.html",
+          "role": "publisher_toc",
+          "checked_at": "2026-10-20T06:37:35+00:00",
+          "method": "目录图目读转录及原图SHA复核",
+          "evidence": [
+            {
+              "url": "https://www.dswxyjy.org.cn/NMediaFile/2025/0809/MAIN1754713986840RFCU9L7OU1.jpg",
+              "sha256": "faeac4ca4b116cf392ecd13dfba6cf9cb903514673a09cdaec6d15c98906f22e",
+              "checked_at": "2026-10-20T06:37:35+00:00"
+            },
+            {
+              "url": "https://www.dswxyjy.org.cn/NMediaFile/2025/0809/MAIN1754713971816FUOWZE7E6X.jpg",
+              "sha256": "844f2007fd04fb732ccd9e39fc5aa8891aa2f5877637fddef4dc9d0c07034477",
+              "checked_at": "2026-10-20T06:37:35+00:00"
+            }
+          ]
+        }
+      ],
+      "verification": "题录已核实",
+      "verification_note": "已核对正式期次目录的题名、作者、年期；未读取论文全文。字段缺失留空。",
+      "date_note": "目录明确标出的出版日；不使用网页日或采集日补填",
+      "reprints": [],
+      "journal_tier": 1,
+      "work_id": "fce3707862e0b371",
+      "date_precision": "day",
+      "id": "88bac7fe8229a676"
+    }
+  ]
+}

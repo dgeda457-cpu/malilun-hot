@@ -1,6 +1,69 @@
 [
-  {"id":"mlky","name":"马克思主义理论学科研究","owner":"高等教育出版社","home":"https://mlky.cbpt.cnki.net/portal","adapter":"cnki","lists":["https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi"],"guide":"https://mlky.cbpt.cnki.net/portal/journal/portal/client/news/426c0815c28fd8687b13f5d53e052dfc","enabled":true,"max_items":20,"rights":"未发现开放转载许可；仅建立书目索引和不超过120字的可核实摘要摘录，不采集受限全文。"},
-  {"id":"socialism","name":"社会主义研究","owner":"华中师范大学《社会主义研究》编辑部","home":"https://socialismstudies.ccnu.edu.cn/","adapter":"socialism","lists":["https://socialismstudies.ccnu.edu.cn/"],"guide":"https://socialismstudies.ccnu.edu.cn/list.php?fid=43","enabled":true,"max_items":15,"rights":"未发现开放转载许可；仅建立书目索引和不超过120字的公开摘要摘录。详情被拒绝时不绕过。"},
-  {"id":"snnu","name":"陕西师范大学马克思主义学院","owner":"陕西师范大学","home":"https://marxism.snnu.edu.cn/","adapter":"vsb","lists":["https://marxism.snnu.edu.cn/xsyj/kydt.htm","https://marxism.snnu.edu.cn/zsxx/bss.htm","https://marxism.snnu.edu.cn/"],"enabled":true,"max_items":22,"rights":"页面标注版权所有，未发现开放转载许可；仅索引题名、公开元数据和短摘录，保留原文链接。"},
-  {"id":"ccnu","name":"华中师范大学马克思主义学院","owner":"华中师范大学","home":"https://marx.ccnu.edu.cn/","adapter":"vsb","lists":["https://marx.ccnu.edu.cn/xkxs/xsdt.htm","https://marx.ccnu.edu.cn/zsjy/zsxx.htm","https://marx.ccnu.edu.cn/"],"enabled":true,"max_items":22,"rights":"页面标注版权所有，未发现开放转载许可；仅索引学术和招生元数据及短摘录，不复制通知全文。"}
+  {
+    "id": "mlky",
+    "name": "马克思主义理论学科研究",
+    "owner": "高等教育出版社",
+    "home": "https://mlky.cbpt.cnki.net/portal",
+    "adapter": "cnki",
+    "lists": [
+      "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi"
+    ],
+    "guide": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/news/426c0815c28fd8687b13f5d53e052dfc",
+    "enabled": true,
+    "max_items": 60,
+    "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
+    "tier": 1,
+    "role": "periodical",
+    "max_pages": 4
+  },
+  {
+    "id": "socialism",
+    "name": "社会主义研究",
+    "owner": "华中师范大学《社会主义研究》编辑部",
+    "home": "https://socialismstudies.ccnu.edu.cn/",
+    "adapter": "socialism",
+    "lists": [
+      "https://socialismstudies.ccnu.edu.cn/"
+    ],
+    "guide": "https://socialismstudies.ccnu.edu.cn/list.php?fid=43",
+    "enabled": true,
+    "max_items": 15,
+    "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
+    "tier": 2,
+    "role": "periodical"
+  },
+  {
+    "id": "snnu",
+    "name": "陕西师范大学马克思主义学院",
+    "owner": "陕西师范大学",
+    "home": "https://marxism.snnu.edu.cn/",
+    "adapter": "vsb",
+    "lists": [
+      "https://marxism.snnu.edu.cn/xsyj/kydt.htm",
+      "https://marxism.snnu.edu.cn/zsxx/bss.htm",
+      "https://marxism.snnu.edu.cn/"
+    ],
+    "enabled": true,
+    "max_items": 22,
+    "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
+    "tier": null,
+    "role": "academy_notices_and_selective_reports"
+  },
+  {
+    "id": "ccnu",
+    "name": "华中师范大学马克思主义学院",
+    "owner": "华中师范大学",
+    "home": "https://marx.ccnu.edu.cn/",
+    "adapter": "vsb",
+    "lists": [
+      "https://marx.ccnu.edu.cn/xkxs/xsdt.htm",
+      "https://marx.ccnu.edu.cn/zsjy/zsxx.htm",
+      "https://marx.ccnu.edu.cn/"
+    ],
+    "enabled": true,
+    "max_items": 22,
+    "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
+    "tier": null,
+    "role": "academy_notices_and_selective_reports"
+  }
 ]
