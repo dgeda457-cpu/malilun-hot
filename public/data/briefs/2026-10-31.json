@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-31",
+  "timezone": "UTC",
+  "generated_at": "2026-10-31T02:28:39+00:00",
+  "title": "马理论日报",
+  "initial_import": false,
+  "item_ids": [],
+  "note": "按本站首次发现时间编排，含历史文献首次收录；不将其称为当日发表成果。无新资料时明确显示空刊；全部来源失败时不生成新一期。",
+  "new_publications": [],
+  "ranking_90": [
+    {
+      "topic_id": "capital",
+      "name": "资本主义批判与数字劳动",
+      "work_count": 5,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-09-15",
+      "item_ids": [
+        "987431cdfb6e1a52",
+        "8842d4abe6c30b86",
+        "dc28a40a7a958edb",
+        "6b7c87b9d2785eef",
+        "068a6bb0b159f261"
+      ],
+      "sparse": true
+    },
+    {
+      "topic_id": "fundamentals",
+      "name": "马克思主义基本原理与经典著作",
+      "work_count": 4,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-09-15",
+      "item_ids": [
+        "987431cdfb6e1a52",
+        "8842d4abe6c30b86",
+        "cca37ae3dd4abc42",
+        "5609b6d0e27cb3af"
+      ],
+      "sparse": true
+    },
+    {
+      "topic_id": "discipline",
+      "name": "马克思主义理论学科建设",
+      "work_count": 4,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-09-15",
+      "item_ids": [
+        "8d2c49b914715007",
+        "17cabdda82a3e80c",
+        "bcc32833465f1626",
+        "519551b33901f6e7"
+      ],
+      "sparse": true
+    },
+    {
+      "topic_id": "education",
+      "name": "思想政治教育",
+      "work_count": 4,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-09-15",
+      "item_ids": [
+        "a00bc298002db4bd",
+        "8d2c49b914715007",
+        "bcc32833465f1626",
+        "519551b33901f6e7"
+      ],
+      "sparse": true
+    },
+    {
+      "topic_id": "party",
+      "name": "党史党建与自我革命",
+      "work_count": 4,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-08-15",
+      "item_ids": [
+        "efcf4efe2747cb45",
+        "bcc32833465f1626",
+        "5ef71dab331fdb6f",
+        "3dc276a9cf05e932"
+      ],
+      "sparse": true
+    }
+  ]
+}
