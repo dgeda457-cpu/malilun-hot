@@ -2,10 +2,12 @@
   {
     "date": "2026-11-07",
     "timezone": "UTC",
-    "generated_at": "2026-11-07T02:52:54+00:00",
+    "generated_at": "2026-11-07T16:52:54+00:00",
     "title": "马理论日报",
     "initial_import": false,
-    "item_ids": [],
+    "item_ids": [
+      "709773265669501f"
+    ],
     "note": "按本站首次发现时间编排，含历史文献首次收录；不将其称为当日发表成果。无新资料时明确显示空刊；全部来源失败时不生成新一期。",
     "new_publications": [],
     "ranking_90": [
