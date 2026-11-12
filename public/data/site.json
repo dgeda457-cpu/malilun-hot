@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_attempt": "2026-11-11T18:44:23+00:00",
-  "last_success": "2026-11-11T18:44:23+00:00",
+  "last_attempt": "2026-11-12T03:53:04+00:00",
+  "last_success": "2026-11-12T03:53:04+00:00",
   "items": [
     {
       "title": "全国高校马克思主义理论学科第88次学科论坛在我校举办",
@@ -111,7 +111,7 @@
       "source_id": "mlky",
       "source_name": "马克思主义理论学科研究",
       "first_seen": "2026-10-30T17:02:58+00:00",
-      "last_verified": "2026-11-11T18:44:42+00:00",
+      "last_verified": "2026-11-12T03:54:18+00:00",
       "verified_urls": [
         "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/caf40cc2ec5e6790a55e7848b37d7c2b"
       ],
@@ -299,7 +299,7 @@
       "source_id": "mlky",
       "source_name": "马克思主义理论学科研究",
       "first_seen": "2026-10-30T17:02:58+00:00",
-      "last_verified": "2026-11-11T18:45:04+00:00",
+      "last_verified": "2026-11-12T03:55:44+00:00",
       "verified_urls": [
         "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/7f0939316fb8806ec1bd21ad66ade789"
       ],
@@ -347,7 +347,7 @@
       "source_id": "mlky",
       "source_name": "马克思主义理论学科研究",
       "first_seen": "2026-10-30T17:02:58+00:00",
-      "last_verified": "2026-11-11T18:45:00+00:00",
+      "last_verified": "2026-11-12T03:55:23+00:00",
       "verified_urls": [
         "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/df0ee36bdc5af10fc8f4b40b5775bb84"
       ],
@@ -392,7 +392,7 @@
       "source_id": "mlky",
       "source_name": "马克思主义理论学科研究",
       "first_seen": "2026-10-30T17:02:58+00:00",
-      "last_verified": "2026-11-11T18:44:54+00:00",
+      "last_verified": "2026-11-12T03:55:00+00:00",
       "verified_urls": [
         "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/2710e102e6bc6308a06a88bf32ab2ae0"
       ],
@@ -532,7 +532,7 @@
       "source_id": "mlky",
       "source_name": "马克思主义理论学科研究",
       "first_seen": "2026-10-30T17:02:58+00:00",
-      "last_verified": "2026-11-11T18:44:47+00:00",
+      "last_verified": "2026-11-12T03:54:40+00:00",
       "verified_urls": [
         "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/5ca0c89cb8ed09c05bfbed5df7a40d08"
       ],
@@ -18212,7 +18212,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-11T18:46:10+00:00",
+      "last_verified": "2026-11-12T03:59:05+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1275/16798.htm"
       ],
@@ -18248,7 +18248,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-11T18:46:12+00:00",
+      "last_verified": "2026-11-12T03:59:24+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1275/16800.htm"
       ],
@@ -18284,7 +18284,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-11T18:46:15+00:00",
+      "last_verified": "2026-11-12T03:59:44+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1275/10215.htm"
       ],
@@ -18320,7 +18320,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-11T18:45:37+00:00",
+      "last_verified": "2026-11-12T03:57:25+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1056/5067.htm"
       ],
@@ -18356,7 +18356,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-11T18:45:40+00:00",
+      "last_verified": "2026-11-12T03:57:45+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1056/3094.htm"
       ],
@@ -18378,10 +18378,35 @@
       "name": "马克思主义理论学科研究",
       "home": "https://mlky.cbpt.cnki.net/portal",
       "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
-      "checked_at": "2026-11-11T18:44:23+00:00",
-      "errors": [],
-      "http_successes": 13,
-      "items": 11,
+      "checked_at": "2026-11-12T03:53:04+00:00",
+      "errors": [
+        {
+          "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paperPage_list?pageNum=2&yearId=78af8d98-94a2-44a8-ae21-7f28b830867a&issueId=c818d0e2-53ef-4e62-8b8c-896b80de3911&year=2026&issue=09",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/2dc6a58e0235f3668745be4a514dcc7c",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/507dbe9d208b7a5c940f0843939bdb52",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/d878a17f822a5b877db66888fbd1c249",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/c7c8820d024fbe9d0bffe0009645bf91",
+          "error": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/596db9c413f9b1a02c31b983fbd96af6",
+          "error": "<urlopen error timed out>"
+        }
+      ],
+      "http_successes": 6,
+      "items": 5,
       "fields": [
         "authors",
         "date_note",
@@ -18413,7 +18438,7 @@
         "work_id"
       ],
       "robots": {
-        "checked_at": "2026-11-11T18:44:23+00:00",
+        "checked_at": "2026-11-12T03:53:04+00:00",
         "url": "https://mlky.cbpt.cnki.net/robots.txt",
         "allowed": true,
         "status": "200_non_robots_response",
@@ -18421,26 +18446,33 @@
       },
       "list_pages": 2,
       "pagination_truncated": false,
-      "status": "ok",
-      "last_success": "2026-11-11T18:44:23+00:00"
+      "status": "partial",
+      "last_success": "2026-11-12T03:53:04+00:00"
     },
     {
       "id": "socialism",
       "name": "社会主义研究",
       "home": "https://socialismstudies.ccnu.edu.cn/",
       "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
-      "checked_at": "2026-11-11T18:44:23+00:00",
-      "errors": [],
+      "checked_at": "2026-11-12T03:53:04+00:00",
+      "errors": [
+        {
+          "url": "https://socialismstudies.ccnu.edu.cn/",
+          "error": "<urlopen error timed out>"
+        }
+      ],
       "http_successes": 0,
       "items": 0,
       "fields": [],
       "robots": {
-        "checked_at": "2026-11-11T18:45:08+00:00",
+        "checked_at": "2026-11-12T03:56:02+00:00",
         "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
-        "allowed": false,
-        "status": "403"
+        "allowed": true,
+        "status": "404"
       },
-      "status": "blocked",
+      "list_pages": 1,
+      "pagination_truncated": false,
+      "status": "failed",
       "last_success": "2026-11-11T02:51:03+00:00"
     },
     {
@@ -18448,10 +18480,15 @@
       "name": "陕西师范大学马克思主义学院",
       "home": "https://marxism.snnu.edu.cn/",
       "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
-      "checked_at": "2026-11-11T18:44:23+00:00",
+      "checked_at": "2026-11-12T03:53:04+00:00",
       "errors": [
         {
-          "error": "待处理链接超过本轮上限；未据此宣称完整收录"
+          "url": "https://marxism.snnu.edu.cn/xsyj/kydt.htm",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        {
+          "url": "https://marxism.snnu.edu.cn/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         },
         {
           "url": "https://marxism.snnu.edu.cn/info/1056/6121.htm",
@@ -18459,92 +18496,15 @@
         },
         {
           "url": "https://marxism.snnu.edu.cn/info/1056/6084.htm",
-          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         },
         {
           "url": "https://marxism.snnu.edu.cn/info/1056/3181.htm",
-          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
         }
       ],
-      "http_successes": 25,
-      "items": 19,
-      "fields": [
-        "authors",
-        "date_note",
-        "date_precision",
-        "enrollment_year",
-        "evidence_level",
-        "first_seen",
-        "id",
-        "issue_number",
-        "issue_year",
-        "journal",
-        "journal_tier",
-        "kind",
-        "last_verified",
-        "reprints",
-        "scope_0305",
-        "source_id",
-        "source_kind",
-        "source_name",
-        "title",
-        "topic_basis",
-        "topics",
-        "url",
-        "verification",
-        "verification_note",
-        "verified_urls",
-        "web_date",
-        "work_id"
-      ],
-      "robots": {
-        "checked_at": "2026-11-11T18:45:10+00:00",
-        "url": "https://marxism.snnu.edu.cn/robots.txt",
-        "allowed": true,
-        "status": "404"
-      },
-      "list_pages": 3,
-      "pagination_truncated": false,
-      "status": "partial",
-      "last_success": "2026-11-11T18:44:23+00:00"
-    },
-    {
-      "id": "ccnu",
-      "name": "华中师范大学马克思主义学院",
-      "home": "https://marx.ccnu.edu.cn/",
-      "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
-      "checked_at": "2026-11-11T18:44:23+00:00",
-      "errors": [
-        {
-          "error": "待处理链接超过本轮上限；未据此宣称完整收录"
-        },
-        {
-          "url": "https://marx.ccnu.edu.cn/info/1275/16793.htm",
-          "error": "未提取到符合学术/招生范围的完整字段；未入库"
-        },
-        {
-          "url": "https://marx.ccnu.edu.cn/info/1275/16794.htm",
-          "error": "未提取到符合学术/招生范围的完整字段；未入库"
-        },
-        {
-          "url": "https://marx.ccnu.edu.cn/info/1275/16795.htm",
-          "error": "未提取到符合学术/招生范围的完整字段；未入库"
-        },
-        {
-          "url": "https://marx.ccnu.edu.cn/info/1275/16796.htm",
-          "error": "未提取到符合学术/招生范围的完整字段；未入库"
-        },
-        {
-          "url": "https://marx.ccnu.edu.cn/info/1275/16799.htm",
-          "error": "未提取到符合学术/招生范围的完整字段；未入库"
-        },
-        {
-          "url": "https://marx.ccnu.edu.cn/info/1275/16801.htm",
-          "error": "未提取到符合学术/招生范围的完整字段；未入库"
-        }
-      ],
-      "http_successes": 25,
-      "items": 16,
+      "http_successes": 4,
+      "items": 2,
       "fields": [
         "date_note",
         "enrollment_year",
@@ -18559,7 +18519,6 @@
         "source_name",
         "title",
         "topic_basis",
-        "topics",
         "url",
         "verification",
         "verification_note",
@@ -18567,7 +18526,80 @@
         "web_date"
       ],
       "robots": {
-        "checked_at": "2026-11-11T18:45:42+00:00",
+        "checked_at": "2026-11-12T03:56:24+00:00",
+        "url": "https://marxism.snnu.edu.cn/robots.txt",
+        "allowed": true,
+        "status": "404"
+      },
+      "list_pages": 3,
+      "pagination_truncated": false,
+      "status": "partial",
+      "last_success": "2026-11-12T03:53:04+00:00"
+    },
+    {
+      "id": "ccnu",
+      "name": "华中师范大学马克思主义学院",
+      "home": "https://marx.ccnu.edu.cn/",
+      "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
+      "checked_at": "2026-11-12T03:53:04+00:00",
+      "errors": [
+        {
+          "url": "https://marx.ccnu.edu.cn/xkxs/xsdt.htm",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16793.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16794.htm",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16795.htm",
+          "error": "未提取到符合学术/招生范围的完整字段；未入库"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16796.htm",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16799.htm",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        },
+        {
+          "url": "https://marx.ccnu.edu.cn/info/1275/16801.htm",
+          "error": "<urlopen error [Errno 101] Network is unreachable>"
+        }
+      ],
+      "http_successes": 6,
+      "items": 3,
+      "fields": [
+        "date_note",
+        "enrollment_year",
+        "evidence_level",
+        "first_seen",
+        "id",
+        "kind",
+        "last_verified",
+        "scope_0305",
+        "source_id",
+        "source_kind",
+        "source_name",
+        "title",
+        "topic_basis",
+        "url",
+        "verification",
+        "verification_note",
+        "verified_urls",
+        "web_date"
+      ],
+      "robots": {
+        "checked_at": "2026-11-12T03:57:45+00:00",
         "url": "https://marx.ccnu.edu.cn/robots.txt",
         "allowed": true,
         "status": "404"
@@ -18575,7 +18607,7 @@
       "list_pages": 3,
       "pagination_truncated": false,
       "status": "partial",
-      "last_success": "2026-11-11T18:44:23+00:00"
+      "last_success": "2026-11-12T03:53:04+00:00"
     },
     {
       "id": "history",
@@ -18609,7 +18641,7 @@
       "checked_at": "2026-11-10T18:42:01+00:00",
       "errors": [
         {
-          "error": "完整目录与已核验期次不一致；保留已有记录，待查漏"
+          "error": "<urlopen error timed out>"
         }
       ],
       "update_mode": "已核期次可重复校验；新期经核验后纳入",
@@ -19495,6 +19527,21 @@
       "outcome": "success",
       "environment": "GitHub Actions",
       "cloud_verified": true
+    },
+    {
+      "id": "2026-11-12T03-53-04+00-00",
+      "at": "2026-11-12T03:53:04+00:00",
+      "new_items": 0,
+      "verified_items": 120,
+      "reviewed_issue_records": 110,
+      "fresh_issue_checks": 0,
+      "live_collector_records": 10,
+      "source_ok": 3,
+      "source_partial": 4,
+      "source_failed": 1,
+      "outcome": "success",
+      "environment": "GitHub Actions",
+      "cloud_verified": true
     }
   ],
   "issue_states": [
@@ -19514,7 +19561,7 @@
           "reason": "访谈"
         }
       ],
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "checked_at": "2026-11-10T18:42:01+00:00",
       "errors": [],
       "evidence": [
@@ -19542,7 +19589,7 @@
       "expected_count": 25,
       "toc_count": 25,
       "excluded": [],
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "checked_at": "2026-11-10T18:42:01+00:00",
       "errors": [],
       "evidence": [
@@ -19575,7 +19622,7 @@
           "reason": "访谈"
         }
       ],
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "checked_at": "2026-11-10T18:42:01+00:00",
       "errors": [],
       "evidence": [
@@ -19603,23 +19650,12 @@
       "expected_count": 12,
       "toc_count": 12,
       "excluded": [],
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "checked_at": "2026-10-27T16:43:16+00:00",
       "errors": [
-        "完整目录与已核验期次不一致；保留已有记录，待查漏"
+        "<urlopen error timed out>"
       ],
-      "evidence": [
-        {
-          "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi",
-          "sha256": "8a4d3b090caacb79601d399a4c61d71545b9819b2449244eef1697286948a8ef",
-          "checked_at": "2026-11-11T18:44:23+00:00"
-        },
-        {
-          "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paperPage_list?pageNum=2&yearId=78af8d98-94a2-44a8-ae21-7f28b830867a&issueId=a5961e24-16f4-473d-87a7-49860a571a13&year=2026&issue=08",
-          "sha256": "b117cc9a120e88d0ace68a3c652a737ce625b79d14e677e3fb5c8ad3b24045c9",
-          "checked_at": "2026-11-11T18:44:23+00:00"
-        }
-      ],
+      "evidence": [],
       "status": "needs_review"
     },
     {
@@ -19638,7 +19674,7 @@
           "reason": "会议综述"
         }
       ],
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "checked_at": "2026-11-10T18:42:01+00:00",
       "errors": [],
       "evidence": [
@@ -19666,7 +19702,7 @@
           "reason": "索引"
         }
       ],
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "checked_at": "2026-11-10T18:42:01+00:00",
       "errors": [],
       "evidence": [
@@ -19694,7 +19730,7 @@
       "expected_count": 16,
       "toc_count": 16,
       "excluded": [],
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "checked_at": "2026-11-10T18:42:01+00:00",
       "errors": [],
       "evidence": [
@@ -19722,23 +19758,12 @@
       "expected_count": 19,
       "toc_count": 19,
       "excluded": [],
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "checked_at": "2026-11-03T18:28:26+00:00",
       "errors": [
-        "完整目录与已核验期次不一致；保留已有记录，待查漏"
+        "<urlopen error timed out>"
       ],
-      "evidence": [
-        {
-          "url": "https://gxsj.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi",
-          "sha256": "b1a06c52318f47585f8cb248270a0ceb008517584375e0065a986db25e6ff33a",
-          "checked_at": "2026-11-11T18:44:23+00:00"
-        },
-        {
-          "url": "https://gxsj.cbpt.cnki.net/portal/journal/portal/client/paperPage_list?pageNum=2&yearId=5a94e3e5-1ef7-4871-b7fb-9775c979bdad&issueId=aa048fdd-f7c3-4022-a68f-7202b64a9b12&year=2026&issue=08",
-          "sha256": "5825408d2c48b3a3b0ecfa6d223abd3ec3c6575627f77d382d8d128a5c19b7dd",
-          "checked_at": "2026-11-11T18:44:23+00:00"
-        }
-      ],
+      "evidence": [],
       "status": "needs_review"
     }
   ],
@@ -19753,10 +19778,10 @@
       "collected": 19,
       "missing": 0,
       "checked_at": "2026-11-03T18:28:26+00:00",
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "status": "needs_review",
       "errors": [
-        "完整目录与已核验期次不一致；保留已有记录，待查漏"
+        "<urlopen error timed out>"
       ],
       "excluded": [],
       "entries": [
@@ -20077,10 +20102,10 @@
       "collected": 12,
       "missing": 0,
       "checked_at": "2026-10-27T16:43:16+00:00",
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "status": "needs_review",
       "errors": [
-        "完整目录与已核验期次不一致；保留已有记录，待查漏"
+        "<urlopen error timed out>"
       ],
       "excluded": [],
       "entries": [
@@ -20289,7 +20314,7 @@
       "collected": 16,
       "missing": 0,
       "checked_at": "2026-11-10T18:42:01+00:00",
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [],
@@ -20563,7 +20588,7 @@
       "collected": 12,
       "missing": 0,
       "checked_at": "2026-11-10T18:42:01+00:00",
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [
@@ -20778,7 +20803,7 @@
       "collected": 21,
       "missing": 0,
       "checked_at": "2026-11-10T18:42:01+00:00",
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [
@@ -21137,7 +21162,7 @@
       "collected": 25,
       "missing": 0,
       "checked_at": "2026-11-10T18:42:01+00:00",
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [],
@@ -21555,7 +21580,7 @@
       "collected": 24,
       "missing": 0,
       "checked_at": "2026-11-10T18:42:01+00:00",
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [
@@ -21962,7 +21987,7 @@
       "collected": 12,
       "missing": 0,
       "checked_at": "2026-11-10T18:42:01+00:00",
-      "attempted_at": "2026-11-11T18:44:23+00:00",
+      "attempted_at": "2026-11-12T03:53:04+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [
@@ -22674,8 +22699,8 @@
     "7": {
       "mode": "collected_topics",
       "window_days": 7,
-      "from": "2026-11-05",
-      "to": "2026-11-11",
+      "from": "2026-11-06",
+      "to": "2026-11-12",
       "works": 0,
       "journals": 0,
       "max_journal_share": 0.0,
@@ -22685,8 +22710,8 @@
     "30": {
       "mode": "collected_topics",
       "window_days": 30,
-      "from": "2026-10-13",
-      "to": "2026-11-11",
+      "from": "2026-10-14",
+      "to": "2026-11-12",
       "works": 0,
       "journals": 0,
       "max_journal_share": 0.0,
@@ -22696,8 +22721,8 @@
     "90": {
       "mode": "collected_topics",
       "window_days": 90,
-      "from": "2026-08-14",
-      "to": "2026-11-11",
+      "from": "2026-08-15",
+      "to": "2026-11-12",
       "works": 23,
       "journals": 1,
       "max_journal_share": 1.0,
@@ -22706,7 +22731,7 @@
     }
   },
   "ranking_rule": "仅计正式出版日可核实、去重后的论文/著作；未知出版日、冲突记录、活动与重复转载不进入7/30/90日窗口。样本未达门槛时按预设议题顺序展示，不作学界热度排名。",
-  "ranking_as_of": "2026-11-11",
+  "ranking_as_of": "2026-11-12",
   "ranking_timezone": "UTC",
   "discovered_keywords": [
     {
