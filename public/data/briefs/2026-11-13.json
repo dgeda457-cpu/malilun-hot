@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-13",
+  "timezone": "UTC",
+  "generated_at": "2026-11-13T03:27:17+00:00",
+  "title": "马理论日报",
+  "initial_import": false,
+  "item_ids": [
+    "b53b5a4e2895ac60",
+    "783fe6f7231a77d0",
+    "75cbfa58887431b3",
+    "3f820d77200e1bd8",
+    "08d5c00bbf6e769f"
+  ],
+  "note": "按本站首次发现时间编排，含历史文献首次收录；不将其称为当日发表成果。无新资料时明确显示空刊；全部来源失败时不生成新一期。",
+  "new_publications": [],
+  "ranking_90": [
+    {
+      "topic_id": "fundamentals",
+      "name": "马克思主义基本原理与经典著作",
+      "work_count": 2,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-09-15",
+      "item_ids": [
+        "987431cdfb6e1a52",
+        "8842d4abe6c30b86"
+      ],
+      "sparse": true
+    },
+    {
+      "topic_id": "discipline",
+      "name": "马克思主义理论学科建设",
+      "work_count": 2,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-09-15",
+      "item_ids": [
+        "8d2c49b914715007",
+        "17cabdda82a3e80c"
+      ],
+      "sparse": true
+    },
+    {
+      "topic_id": "education",
+      "name": "思想政治教育",
+      "work_count": 2,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-09-15",
+      "item_ids": [
+        "a00bc298002db4bd",
+        "8d2c49b914715007"
+      ],
+      "sparse": true
+    },
+    {
+      "topic_id": "capital",
+      "name": "资本主义批判与数字劳动",
+      "work_count": 2,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-09-15",
+      "item_ids": [
+        "987431cdfb6e1a52",
+        "8842d4abe6c30b86"
+      ],
+      "sparse": true
+    },
+    {
+      "topic_id": "sinicization",
+      "name": "马克思主义中国化时代化",
+      "work_count": 1,
+      "source_count": 1,
+      "sources": [
+        "马克思主义理论学科研究"
+      ],
+      "latest": "2026-09-15",
+      "item_ids": [
+        "ae17f997f5fd564c"
+      ],
+      "sparse": true
+    }
+  ]
+}
