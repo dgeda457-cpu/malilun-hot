@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_attempt": "2026-11-23T03:44:39+00:00",
-  "last_success": "2026-11-23T03:44:39+00:00",
+  "last_attempt": "2026-11-23T22:42:43+00:00",
+  "last_success": "2026-11-23T22:42:43+00:00",
   "items": [
     {
       "title": "全国高校马克思主义理论学科第88次学科论坛在我校举办",
@@ -24,7 +24,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T15:40:31+00:00",
-      "last_verified": "2026-11-23T03:46:37+00:00",
+      "last_verified": "2026-11-23T22:44:12+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1061/16910.htm"
       ],
@@ -65,7 +65,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-11-07T16:52:54+00:00",
-      "last_verified": "2026-11-23T03:46:49+00:00",
+      "last_verified": "2026-11-23T22:44:19+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/25366.htm"
       ],
@@ -78,6 +78,561 @@
       ],
       "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点",
       "observations": []
+    },
+    {
+      "title": "马克思需要理论视域下“美好生活需要”的学理阐释",
+      "authors": [
+        "汤茂玥"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "马克思需要理论",
+        "美好生活需要",
+        "习近平新时代中国特色社会主义思想"
+      ],
+      "doi": null,
+      "pages": "121-127",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "8331d3397d01ee5c",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/575ed382aa5950e08861804bdf6a8561",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:18+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/575ed382aa5950e08861804bdf6a8561"
+      ],
+      "id": "da78951e0fb89d33",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "theory"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "习近平党建思想的话语创新与体系构建",
+      "authors": [
+        "陆卫明",
+        "姚文兴"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "习近平党建思想",
+        "全面从严治党",
+        "党的自我革命",
+        "党的建设"
+      ],
+      "doi": null,
+      "pages": "15-24",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "6a95bf59094352c0",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/f02ed7fbb5f5cc8e2cdad3c3045c1df1",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:01+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/f02ed7fbb5f5cc8e2cdad3c3045c1df1"
+      ],
+      "id": "d886968df75713bf",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "party",
+        "theory"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "生成式人工智能“价值对齐”难题的根源及治理",
+      "authors": [
+        "潘一坡"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "生成式人工智能",
+        "价值对齐",
+        "价值观",
+        "人工智能伦理"
+      ],
+      "doi": null,
+      "pages": "111-120",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "b8e9374944d3b40f",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/afbe077ef36f9d64d561f97b781a6ae0",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:16+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/afbe077ef36f9d64d561f97b781a6ae0"
+      ],
+      "id": "bc63c743fc7ffff9",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "《习近平谈治国理政》的基本遵循与演进特征——基于第一至五卷的文本分析",
+      "authors": [
+        "张彦"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "《习近平谈治国理政》",
+        "文本分析",
+        "共同遵循",
+        "演进趋势"
+      ],
+      "doi": null,
+      "pages": "36-47",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "ec311008c92bf6d1",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/bddd5974f141c44f7da277d4730a6d04",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:04+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/bddd5974f141c44f7da277d4730a6d04"
+      ],
+      "id": "b761ed73ec5087e1",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "theory"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "习近平党建思想的唯物史观基础",
+      "authors": [
+        "王岩"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "习近平党建思想",
+        "唯物史观",
+        "社会基本矛盾",
+        "自我革命"
+      ],
+      "doi": null,
+      "pages": "4-14",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "acc62b1d451d1631",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/4dc51d67f3339f7e09b2ccdeac680723",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:42:58+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/4dc51d67f3339f7e09b2ccdeac680723"
+      ],
+      "id": "b1200adb4a50d20e",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "fundamentals",
+        "party",
+        "theory"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "人与自然和谐共生的现代化叙事体系建构的逻辑理路",
+      "authors": [
+        "王冠文"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "人与自然和谐共生",
+        "中国式现代化",
+        "叙事体系",
+        "中国方案"
+      ],
+      "doi": null,
+      "pages": "90-99",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "c57f6086ec93d90e",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/3b2b6ebe62b7a2dea58fb0049a7db7f1",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:12+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/3b2b6ebe62b7a2dea58fb0049a7db7f1"
+      ],
+      "id": "913ba25b30d24505",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "modernization"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "马克思的“具体平等”思想与社会主义的共同富裕追求",
+      "authors": [
+        "齐艳红"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "具体平等",
+        "共同富裕",
+        "平等理想",
+        "公平正义",
+        "社会发展"
+      ],
+      "doi": null,
+      "pages": "58-66",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "39bf306fa5237936",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/63dc5dcac55b8eb6086478fbf8030b71",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:07+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/63dc5dcac55b8eb6086478fbf8030b71"
+      ],
+      "id": "6c8fe5cb3a88ca9d",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "fundamentals",
+        "modernization"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "思想政治教育基本矛盾的再思考",
+      "authors": [
+        "骆郁廷"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "思想政治教育",
+        "基本矛盾",
+        "再思考"
+      ],
+      "doi": null,
+      "pages": "100-110",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "c2a2e27219b956a9",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/5fc38953c129b0142601121ebd998cd9",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:14+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/5fc38953c129b0142601121ebd998cd9"
+      ],
+      "id": "6aaea58d3b017460",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "education"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "马克思恩格斯的文化观变革——《共产党宣言》中“两个彻底决裂”论断的一条隐蔽线索",
+      "authors": [
+        "杨乔乔"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "共产党宣言",
+        "两个彻底决裂",
+        "两个结合",
+        "文化建设"
+      ],
+      "doi": null,
+      "pages": "48-57",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "9cdb95002e725b46",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/00618de975f3495a22fa0269df1388e2",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:06+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/00618de975f3495a22fa0269df1388e2"
+      ],
+      "id": "5a00973325516b4e",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "fundamentals",
+        "sinicization"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "习近平党建思想标识性概念谱系及其原创性贡献",
+      "authors": [
+        "陈洪玲",
+        "朱振岚"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "习近平党建思想",
+        "标识性概念",
+        "马克思主义建党学说"
+      ],
+      "doi": null,
+      "pages": "25-35",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "dc30390c341a3203",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/0136d49e0dcf7b6bdbb3e472ef5e6fa1",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:03+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/0136d49e0dcf7b6bdbb3e472ef5e6fa1"
+      ],
+      "id": "4a918fca23087da3",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "party",
+        "theory"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "中国共产党坚持独立自主的历史发展与启示",
+      "authors": [
+        "杨峻岭"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "中国共产党",
+        "独立自主",
+        "历史发展"
+      ],
+      "doi": null,
+      "pages": "78-89",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "60d4eeed260a62b4",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/0385f79d79b04c47f68b5b0c7c8ffef8",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:11+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/0385f79d79b04c47f68b5b0c7c8ffef8"
+      ],
+      "id": "362b598ce7b0a5f1",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [
+        "party"
+      ],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
+    },
+    {
+      "title": "恩格斯“文明时代”的出场动因、基本内涵和理论贡献",
+      "authors": [
+        "武磊",
+        "沈江平"
+      ],
+      "journal": "马克思主义理论学科研究",
+      "kind": "paper",
+      "publication_date": "2026-10-15",
+      "web_date": "2026-10-15",
+      "issue_year": 2026,
+      "issue_number": 10,
+      "abstract_excerpt": null,
+      "keywords": [
+        "恩格斯",
+        "文明时代",
+        "出场动因",
+        "基本内涵",
+        "理论贡献"
+      ],
+      "doi": null,
+      "pages": "67-77",
+      "evidence_level": "metadata",
+      "keyword_note": "仅提取明确关键词标签与下一字段之间的词项；不从摘要正文推断。",
+      "journal_tier": 1,
+      "source_kind": "publisher",
+      "work_id": "03dd15a91bac4752",
+      "network_first_date": null,
+      "reprints": [],
+      "date_precision": "day",
+      "collected_at": "2026-11-23T22:42:43+00:00",
+      "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/e4c9ab5c3ce3175a747b28b20d8fa6c4",
+      "source_id": "mlky",
+      "source_name": "马克思主义理论学科研究",
+      "first_seen": "2026-11-23T22:42:43+00:00",
+      "last_verified": "2026-11-23T22:43:09+00:00",
+      "verified_urls": [
+        "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper/e4c9ab5c3ce3175a747b28b20d8fa6c4"
+      ],
+      "id": "0b2087d28831b6cf",
+      "verification": "已核实",
+      "verification_note": "原始网页及书目字段已读取。未核验论文全文；期刊/学院网页本身的声明不等于第三方事实核查。",
+      "date_note": "出版日期已由期刊详情页核实",
+      "topics": [],
+      "topic_basis": "题名和明确原始关键词的字面匹配；不从摘要或正文推断观点"
     },
     {
       "title": "“两个结合”与马克思主义共同富裕理论中国化时代化新境界",
@@ -1630,7 +2185,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:38+00:00",
+      "last_verified": "2026-11-23T22:44:13+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1061/16710.htm"
       ],
@@ -4437,7 +4992,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:50+00:00",
+      "last_verified": "2026-11-23T22:44:21+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/24136.htm"
       ],
@@ -4473,7 +5028,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:52+00:00",
+      "last_verified": "2026-11-23T22:44:22+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/24406.htm"
       ],
@@ -7823,7 +8378,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:53+00:00",
+      "last_verified": "2026-11-23T22:44:23+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/24386.htm"
       ],
@@ -7861,7 +8416,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:55+00:00",
+      "last_verified": "2026-11-23T22:44:24+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/23826.htm"
       ],
@@ -7897,7 +8452,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:56+00:00",
+      "last_verified": "2026-11-23T22:44:25+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/23746.htm"
       ],
@@ -7973,7 +8528,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:58+00:00",
+      "last_verified": "2026-11-23T22:44:27+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/24336.htm"
       ],
@@ -8153,7 +8708,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:59+00:00",
+      "last_verified": "2026-11-23T22:44:28+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/24326.htm"
       ],
@@ -8191,7 +8746,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:59:29+00:00",
-      "last_verified": "2026-11-23T03:47:00+00:00",
+      "last_verified": "2026-11-23T22:44:29+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/24666.htm"
       ],
@@ -8229,7 +8784,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:47:02+00:00",
+      "last_verified": "2026-11-23T22:44:30+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/24656.htm"
       ],
@@ -8276,7 +8831,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-11-02T20:48:44+00:00",
-      "last_verified": "2026-11-23T03:46:11+00:00",
+      "last_verified": "2026-11-23T22:43:48+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16930.htm"
       ],
@@ -8312,7 +8867,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:13+00:00",
+      "last_verified": "2026-11-23T22:43:49+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16890.htm"
       ],
@@ -9875,7 +10430,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:14+00:00",
+      "last_verified": "2026-11-23T22:43:50+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16880.htm"
       ],
@@ -11558,7 +12113,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:16+00:00",
+      "last_verified": "2026-11-23T22:43:53+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16860.htm"
       ],
@@ -11609,7 +12164,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-11-13T03:27:17+00:00",
-      "last_verified": "2026-11-23T03:45:40+00:00",
+      "last_verified": "2026-11-23T22:43:26+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2509"
       ],
@@ -11654,7 +12209,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-11-13T03:27:17+00:00",
-      "last_verified": "2026-11-23T03:45:46+00:00",
+      "last_verified": "2026-11-23T22:43:29+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2507"
       ],
@@ -11701,7 +12256,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-11-13T03:27:17+00:00",
-      "last_verified": "2026-11-23T03:45:44+00:00",
+      "last_verified": "2026-11-23T22:43:27+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2508"
       ],
@@ -11739,7 +12294,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:15+00:00",
+      "last_verified": "2026-11-23T22:43:51+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16870.htm"
       ],
@@ -11784,7 +12339,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:21+00:00",
+      "last_verified": "2026-11-23T22:43:57+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16620.htm"
       ],
@@ -11836,7 +12391,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-11-13T03:27:17+00:00",
-      "last_verified": "2026-11-23T03:45:48+00:00",
+      "last_verified": "2026-11-23T22:43:31+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2506"
       ],
@@ -11882,7 +12437,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-11-13T03:27:17+00:00",
-      "last_verified": "2026-11-23T03:45:54+00:00",
+      "last_verified": "2026-11-23T22:43:32+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2505"
       ],
@@ -11921,7 +12476,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:20+00:00",
+      "last_verified": "2026-11-23T22:43:56+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16630.htm"
       ],
@@ -11963,7 +12518,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-10-20T04:03:12+00:00",
-      "last_verified": "2026-11-23T03:46:01+00:00",
+      "last_verified": "2026-11-23T22:43:39+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2474",
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2490"
@@ -12015,7 +12570,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-11-03T03:56:54+00:00",
-      "last_verified": "2026-11-23T03:45:55+00:00",
+      "last_verified": "2026-11-23T22:43:34+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2503"
       ],
@@ -12060,7 +12615,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-11-03T03:56:54+00:00",
-      "last_verified": "2026-11-23T03:45:57+00:00",
+      "last_verified": "2026-11-23T22:43:35+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2502"
       ],
@@ -12096,7 +12651,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:22+00:00",
+      "last_verified": "2026-11-23T22:43:59+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16610.htm"
       ],
@@ -12145,7 +12700,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-11-03T03:56:54+00:00",
-      "last_verified": "2026-11-23T03:45:58+00:00",
+      "last_verified": "2026-11-23T22:43:36+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2501"
       ],
@@ -14622,7 +15177,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:17+00:00",
+      "last_verified": "2026-11-23T22:43:54+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16770.htm"
       ],
@@ -14926,7 +15481,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-10-20T04:03:12+00:00",
-      "last_verified": "2026-11-23T03:46:03+00:00",
+      "last_verified": "2026-11-23T22:43:41+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2468"
       ],
@@ -16036,7 +16591,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:24+00:00",
+      "last_verified": "2026-11-23T22:44:00+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/15880.htm"
       ],
@@ -16089,7 +16644,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-11-03T03:56:54+00:00",
-      "last_verified": "2026-11-23T03:45:59+00:00",
+      "last_verified": "2026-11-23T22:43:38+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=70&id=2500"
       ],
@@ -16173,7 +16728,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:19+00:00",
+      "last_verified": "2026-11-23T22:43:55+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/16720.htm"
       ],
@@ -16317,7 +16872,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:29+00:00",
+      "last_verified": "2026-11-23T22:44:05+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/15820.htm"
       ],
@@ -16411,7 +16966,7 @@
       "source_id": "socialism",
       "source_name": "社会主义研究",
       "first_seen": "2026-10-20T04:03:12+00:00",
-      "last_verified": "2026-11-23T03:46:05+00:00",
+      "last_verified": "2026-11-23T22:43:42+00:00",
       "verified_urls": [
         "https://socialismstudies.ccnu.edu.cn/bencandy.php?fid=71&id=2456"
       ],
@@ -16456,7 +17011,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:25+00:00",
+      "last_verified": "2026-11-23T22:44:01+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/15850.htm"
       ],
@@ -16546,7 +17101,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:27+00:00",
+      "last_verified": "2026-11-23T22:44:02+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/15840.htm"
       ],
@@ -16636,7 +17191,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:28+00:00",
+      "last_verified": "2026-11-23T22:44:03+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1034/15830.htm"
       ],
@@ -16722,7 +17277,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:47:03+00:00",
+      "last_verified": "2026-11-23T22:44:31+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/22776.htm"
       ],
@@ -16760,7 +17315,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:47:05+00:00",
+      "last_verified": "2026-11-23T22:44:33+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1143/22516.htm"
       ],
@@ -20018,7 +20573,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:47:18+00:00",
+      "last_verified": "2026-11-23T22:44:45+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1024/18896.htm"
       ],
@@ -20364,7 +20919,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:47:11+00:00",
+      "last_verified": "2026-11-23T22:44:39+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1275/16798.htm"
       ],
@@ -20400,7 +20955,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:47:13+00:00",
+      "last_verified": "2026-11-23T22:44:41+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1275/16800.htm"
       ],
@@ -20436,7 +20991,7 @@
       "source_id": "ccnu",
       "source_name": "华中师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:47:16+00:00",
+      "last_verified": "2026-11-23T22:44:44+00:00",
       "verified_urls": [
         "https://marx.ccnu.edu.cn/info/1275/10215.htm"
       ],
@@ -20472,7 +21027,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:33+00:00",
+      "last_verified": "2026-11-23T22:44:09+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1056/5067.htm"
       ],
@@ -20508,7 +21063,7 @@
       "source_id": "snnu",
       "source_name": "陕西师范大学马克思主义学院",
       "first_seen": "2026-10-20T03:58:06+00:00",
-      "last_verified": "2026-11-23T03:46:36+00:00",
+      "last_verified": "2026-11-23T22:44:11+00:00",
       "verified_urls": [
         "https://marxism.snnu.edu.cn/info/1056/3094.htm"
       ],
@@ -20530,10 +21085,10 @@
       "name": "马克思主义理论学科研究",
       "home": "https://mlky.cbpt.cnki.net/portal",
       "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
-      "checked_at": "2026-11-23T03:44:39+00:00",
+      "checked_at": "2026-11-23T22:42:43+00:00",
       "errors": [],
-      "http_successes": 13,
-      "items": 11,
+      "http_successes": 14,
+      "items": 12,
       "fields": [
         "authors",
         "date_note",
@@ -20565,7 +21120,7 @@
         "work_id"
       ],
       "robots": {
-        "checked_at": "2026-11-23T03:44:39+00:00",
+        "checked_at": "2026-11-23T22:42:43+00:00",
         "url": "https://mlky.cbpt.cnki.net/robots.txt",
         "allowed": true,
         "status": "200_non_robots_response",
@@ -20574,14 +21129,14 @@
       "list_pages": 2,
       "pagination_truncated": false,
       "status": "ok",
-      "last_success": "2026-11-23T03:44:39+00:00"
+      "last_success": "2026-11-23T22:42:43+00:00"
     },
     {
       "id": "socialism",
       "name": "社会主义研究",
       "home": "https://socialismstudies.ccnu.edu.cn/",
       "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
-      "checked_at": "2026-11-23T03:44:39+00:00",
+      "checked_at": "2026-11-23T22:42:43+00:00",
       "errors": [
         {
           "error": "待处理链接超过本轮上限；未据此宣称完整收录"
@@ -20629,7 +21184,7 @@
         "work_id"
       ],
       "robots": {
-        "checked_at": "2026-11-23T03:45:25+00:00",
+        "checked_at": "2026-11-23T22:43:18+00:00",
         "url": "https://socialismstudies.ccnu.edu.cn/robots.txt",
         "allowed": true,
         "status": "404"
@@ -20637,14 +21192,14 @@
       "list_pages": 1,
       "pagination_truncated": false,
       "status": "partial",
-      "last_success": "2026-11-23T03:44:39+00:00"
+      "last_success": "2026-11-23T22:42:43+00:00"
     },
     {
       "id": "snnu",
       "name": "陕西师范大学马克思主义学院",
       "home": "https://marxism.snnu.edu.cn/",
       "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
-      "checked_at": "2026-11-23T03:44:39+00:00",
+      "checked_at": "2026-11-23T22:42:43+00:00",
       "errors": [
         {
           "error": "待处理链接超过本轮上限；未据此宣称完整收录"
@@ -20694,7 +21249,7 @@
         "work_id"
       ],
       "robots": {
-        "checked_at": "2026-11-23T03:46:05+00:00",
+        "checked_at": "2026-11-23T22:43:42+00:00",
         "url": "https://marxism.snnu.edu.cn/robots.txt",
         "allowed": true,
         "status": "404"
@@ -20702,14 +21257,14 @@
       "list_pages": 3,
       "pagination_truncated": false,
       "status": "partial",
-      "last_success": "2026-11-23T03:44:39+00:00"
+      "last_success": "2026-11-23T22:42:43+00:00"
     },
     {
       "id": "ccnu",
       "name": "华中师范大学马克思主义学院",
       "home": "https://marx.ccnu.edu.cn/",
       "rights": "仅索引公开事实性题录及原文链接；不复制摘要或正文，不绕过robots和访问限制。未据此宣称获得全库或全文批量授权。",
-      "checked_at": "2026-11-23T03:44:39+00:00",
+      "checked_at": "2026-11-23T22:42:43+00:00",
       "errors": [
         {
           "error": "待处理链接超过本轮上限；未据此宣称完整收录"
@@ -20763,7 +21318,7 @@
         "web_date"
       ],
       "robots": {
-        "checked_at": "2026-11-23T03:46:38+00:00",
+        "checked_at": "2026-11-23T22:44:13+00:00",
         "url": "https://marx.ccnu.edu.cn/robots.txt",
         "allowed": true,
         "status": "404"
@@ -20771,7 +21326,7 @@
       "list_pages": 3,
       "pagination_truncated": false,
       "status": "partial",
-      "last_success": "2026-11-23T03:44:39+00:00"
+      "last_success": "2026-11-23T22:42:43+00:00"
     },
     {
       "id": "history",
@@ -22036,6 +22591,21 @@
       "outcome": "success",
       "environment": "GitHub Actions",
       "cloud_verified": true
+    },
+    {
+      "id": "2026-11-23T22-42-43+00-00",
+      "at": "2026-11-23T22:42:43+00:00",
+      "new_items": 12,
+      "verified_items": 169,
+      "reviewed_issue_records": 110,
+      "fresh_issue_checks": 0,
+      "live_collector_records": 59,
+      "source_ok": 4,
+      "source_partial": 4,
+      "source_failed": 0,
+      "outcome": "success",
+      "environment": "GitHub Actions",
+      "cloud_verified": true
     }
   ],
   "issue_states": [
@@ -22055,7 +22625,7 @@
           "reason": "访谈"
         }
       ],
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "checked_at": "2026-11-17T19:54:13+00:00",
       "errors": [],
       "evidence": [
@@ -22083,7 +22653,7 @@
       "expected_count": 25,
       "toc_count": 25,
       "excluded": [],
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "checked_at": "2026-11-17T19:54:13+00:00",
       "errors": [],
       "evidence": [
@@ -22116,7 +22686,7 @@
           "reason": "访谈"
         }
       ],
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "checked_at": "2026-11-17T19:54:13+00:00",
       "errors": [],
       "evidence": [
@@ -22144,7 +22714,7 @@
       "expected_count": 12,
       "toc_count": 12,
       "excluded": [],
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "checked_at": "2026-10-27T16:43:16+00:00",
       "errors": [
         "完整目录与已核验期次不一致；保留已有记录，待查漏"
@@ -22152,13 +22722,13 @@
       "evidence": [
         {
           "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi",
-          "sha256": "1eeab18268a7f294d294a3279fbb53ff02f1e75ff05ef2c450f352c9da21995b",
-          "checked_at": "2026-11-23T03:44:39+00:00"
+          "sha256": "8b562a1362d89110c01e9493f6b3d46ded84ffa54967b00102c75cd11461610f",
+          "checked_at": "2026-11-23T22:42:43+00:00"
         },
         {
           "url": "https://mlky.cbpt.cnki.net/portal/journal/portal/client/paperPage_list?pageNum=2&yearId=78af8d98-94a2-44a8-ae21-7f28b830867a&issueId=a5961e24-16f4-473d-87a7-49860a571a13&year=2026&issue=08",
-          "sha256": "37ac2fb167c402cd7a793a6bba213b772b9e1d78599c1e2ddcc6b7559f96e05d",
-          "checked_at": "2026-11-23T03:44:39+00:00"
+          "sha256": "0a85aaf5abe543992a87828e710519535d01287a4c5e6d5e4bfa55ff1b8ba570",
+          "checked_at": "2026-11-23T22:42:43+00:00"
         }
       ],
       "status": "needs_review"
@@ -22179,7 +22749,7 @@
           "reason": "会议综述"
         }
       ],
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "checked_at": "2026-11-17T19:54:13+00:00",
       "errors": [],
       "evidence": [
@@ -22207,7 +22777,7 @@
           "reason": "索引"
         }
       ],
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "checked_at": "2026-11-17T19:54:13+00:00",
       "errors": [],
       "evidence": [
@@ -22235,7 +22805,7 @@
       "expected_count": 16,
       "toc_count": 16,
       "excluded": [],
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "checked_at": "2026-11-17T19:54:13+00:00",
       "errors": [],
       "evidence": [
@@ -22263,7 +22833,7 @@
       "expected_count": 19,
       "toc_count": 19,
       "excluded": [],
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "checked_at": "2026-11-03T18:28:26+00:00",
       "errors": [
         "完整目录与已核验期次不一致；保留已有记录，待查漏"
@@ -22271,13 +22841,13 @@
       "evidence": [
         {
           "url": "https://gxsj.cbpt.cnki.net/portal/journal/portal/client/paper_list/type_benqi",
-          "sha256": "fd68359ccdf073608d116e42109fed1fa2ada2b1fbbda34b3345f16d9cd3dea5",
-          "checked_at": "2026-11-23T03:44:39+00:00"
+          "sha256": "75391d01a79237ec852f8c062871c61bfd9201f351c5f9f099e682c37a84957e",
+          "checked_at": "2026-11-23T22:42:43+00:00"
         },
         {
           "url": "https://gxsj.cbpt.cnki.net/portal/journal/portal/client/paperPage_list?pageNum=2&yearId=5a94e3e5-1ef7-4871-b7fb-9775c979bdad&issueId=aa048fdd-f7c3-4022-a68f-7202b64a9b12&year=2026&issue=08",
-          "sha256": "f600e3cdccfc067af461b11a87643866bcfd7606138b6c4d150cc872e91d981c",
-          "checked_at": "2026-11-23T03:44:39+00:00"
+          "sha256": "17b386da577a8b3801ddf06a34ae652e32c4c0ace30cbae8582f80ed9f8e563e",
+          "checked_at": "2026-11-23T22:42:43+00:00"
         }
       ],
       "status": "needs_review"
@@ -22294,7 +22864,7 @@
       "collected": 19,
       "missing": 0,
       "checked_at": "2026-11-03T18:28:26+00:00",
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "status": "needs_review",
       "errors": [
         "完整目录与已核验期次不一致；保留已有记录，待查漏"
@@ -22618,7 +23188,7 @@
       "collected": 12,
       "missing": 0,
       "checked_at": "2026-10-27T16:43:16+00:00",
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "status": "needs_review",
       "errors": [
         "完整目录与已核验期次不一致；保留已有记录，待查漏"
@@ -22830,7 +23400,7 @@
       "collected": 16,
       "missing": 0,
       "checked_at": "2026-11-17T19:54:13+00:00",
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [],
@@ -23104,7 +23674,7 @@
       "collected": 12,
       "missing": 0,
       "checked_at": "2026-11-17T19:54:13+00:00",
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [
@@ -23319,7 +23889,7 @@
       "collected": 21,
       "missing": 0,
       "checked_at": "2026-11-17T19:54:13+00:00",
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [
@@ -23678,7 +24248,7 @@
       "collected": 25,
       "missing": 0,
       "checked_at": "2026-11-17T19:54:13+00:00",
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [],
@@ -24096,7 +24666,7 @@
       "collected": 24,
       "missing": 0,
       "checked_at": "2026-11-17T19:54:13+00:00",
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [
@@ -24503,7 +25073,7 @@
       "collected": 12,
       "missing": 0,
       "checked_at": "2026-11-17T19:54:13+00:00",
-      "attempted_at": "2026-11-23T03:44:39+00:00",
+      "attempted_at": "2026-11-23T22:42:43+00:00",
       "status": "verified",
       "errors": [],
       "excluded": [
