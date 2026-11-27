@@ -1,5 +1,105 @@
 [
   {
+    "date": "2026-11-27",
+    "timezone": "UTC",
+    "generated_at": "2026-11-27T05:06:18+00:00",
+    "title": "马理论日报",
+    "initial_import": false,
+    "item_ids": [
+      "1bc95002818d077d"
+    ],
+    "note": "按本站首次发现时间编排，含历史文献首次收录；不将其称为当日发表成果。无新资料时明确显示空刊；全部来源失败时不生成新一期。",
+    "new_publications": [],
+    "ranking_90": [
+      {
+        "topic_id": "theory",
+        "name": "党的创新理论",
+        "work_count": 6,
+        "source_count": 1,
+        "sources": [
+          "马克思主义理论学科研究"
+        ],
+        "latest": "2026-10-15",
+        "item_ids": [
+          "da78951e0fb89d33",
+          "d886968df75713bf",
+          "b761ed73ec5087e1",
+          "b1200adb4a50d20e",
+          "4a918fca23087da3",
+          "35717b9db4cd0999"
+        ],
+        "sparse": true
+      },
+      {
+        "topic_id": "fundamentals",
+        "name": "马克思主义基本原理与经典著作",
+        "work_count": 5,
+        "source_count": 1,
+        "sources": [
+          "马克思主义理论学科研究"
+        ],
+        "latest": "2026-10-15",
+        "item_ids": [
+          "b1200adb4a50d20e",
+          "6c8fe5cb3a88ca9d",
+          "5a00973325516b4e",
+          "987431cdfb6e1a52",
+          "8842d4abe6c30b86"
+        ],
+        "sparse": true
+      },
+      {
+        "topic_id": "party",
+        "name": "党史党建与自我革命",
+        "work_count": 4,
+        "source_count": 1,
+        "sources": [
+          "马克思主义理论学科研究"
+        ],
+        "latest": "2026-10-15",
+        "item_ids": [
+          "d886968df75713bf",
+          "b1200adb4a50d20e",
+          "4a918fca23087da3",
+          "362b598ce7b0a5f1"
+        ],
+        "sparse": true
+      },
+      {
+        "topic_id": "education",
+        "name": "思想政治教育",
+        "work_count": 3,
+        "source_count": 1,
+        "sources": [
+          "马克思主义理论学科研究"
+        ],
+        "latest": "2026-10-15",
+        "item_ids": [
+          "6aaea58d3b017460",
+          "a00bc298002db4bd",
+          "8d2c49b914715007"
+        ],
+        "sparse": true
+      },
+      {
+        "topic_id": "modernization",
+        "name": "中国式现代化与共同富裕",
+        "work_count": 3,
+        "source_count": 1,
+        "sources": [
+          "马克思主义理论学科研究"
+        ],
+        "latest": "2026-10-15",
+        "item_ids": [
+          "913ba25b30d24505",
+          "6c8fe5cb3a88ca9d",
+          "ae17f997f5fd564c"
+        ],
+        "sparse": true
+      }
+    ]
+  },
+  {
     "date": "2026-11-26",
     "timezone": "UTC",
     "generated_at": "2026-11-26T20:13:52+00:00",
